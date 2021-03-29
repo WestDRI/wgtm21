@@ -1,5 +1,5 @@
 #+title: Remote computing
-#+slug: hpc
+#+slug: basics
 
 {{<cor>}}Tuesday, April 20{{</cor>}} \\
 {{<cgr>}}Shell scripting with Bash{{</cgr>}}

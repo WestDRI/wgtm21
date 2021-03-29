@@ -31,9 +31,9 @@ canonifyurls = true
         [languages.en.menu]
 
             [[languages.en.menu.main]]
-            name = "HPC"
+            name = "Basics"
             weight = 1
-            url = "hpc"
+            url = "basics"
 
             [[languages.en.menu.main]]
             name = "Programming"
