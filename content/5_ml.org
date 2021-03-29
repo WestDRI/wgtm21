@@ -1,0 +1,4 @@
+#+title: Deep learning with fastai
+#+slug: ml
+
+{{<cor>}}Tuesday, July 6{{</cor>}}

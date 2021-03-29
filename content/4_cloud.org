@@ -1,0 +1,8 @@
+#+title: Compute Canada cloud
+#+slug: cloud
+
+{{<cor>}}Tuesday, June 22{{</cor>}} \\
+{{<cgr>}}Introduction to the cloud{{</cgr>}}
+
+{{<cor>}}Tuesday, June 29{{</cor>}} \\
+{{<cgr>}}Docker{{</cgr>}}

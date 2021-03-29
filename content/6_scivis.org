@@ -1,0 +1,4 @@
+#+title: 3D scientific visualization
+#+slug: scivis
+
+{{<cor>}}Thursday, June 17{{</cor>}}
