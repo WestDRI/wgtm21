@@ -41,21 +41,26 @@ canonifyurls = true
             url = "programming"
 
             [[languages.en.menu.main]]
-            name = "Cloud"
+            name = "Parallel"
             weight = 3
+            url = "parallel"
+
+            [[languages.en.menu.main]]
+            name = "Cloud"
+            weight = 4
             url = "cloud"
 
             [[languages.en.menu.main]]
             name = "ML"
-            weight = 4
+            weight = 5
             url = "ml"
 
 	    [[languages.en.menu.main]]
 	    name = "SciVis"
-	    weight = 5
+	    weight = 6
 	    url  = "scivis"
 
 	    [[languages.en.menu.main]]
 	    name = "Matlab"
-	    weight = 6
+	    weight = 7
 	    url  = "matlab"
