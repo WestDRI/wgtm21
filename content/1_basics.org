@@ -2,8 +2,7 @@
 #+slug: basics
 
 {{<cor>}}Tuesday, April 20{{</cor>}} \\
-{{<c link="/basics_bash" topic="Shell scripting with Bash" >}}
+{{<c link="/basics_bash" topic="Bash command line" >}}
 
 {{<cor>}}Tuesday, April 27{{</cor>}} \\
 {{<c link="/basics_hpc" topic="Introduction to HPC" >}}
-
