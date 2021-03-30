@@ -1,0 +1,89 @@
++++
+title = "Dictionaries"
+slug = "python-07-dictionaries"
+weight = 7
++++
+
+**Lists** in Python are ordered sets of objects that you access via their position/index. **Dictionaries** are unordered
+sets in which the objects are accessed via their keys. In other words, dictionaries are unordered key-value pairs.
+
+```py
+favs = {'mary': 'orange', 'john': 'green', 'eric': 'blue'}
+favs
+favs['john']      # returns 'green'
+favs['mary']      # returns 'orange'
+list(favs.values()).index('blue')     # will return the index of the first value 'blue'
+```
+
+```py
+for key in favs:
+	print(key)          # will print the names
+for k in favs.keys():
+	print(k)            # the same
+for key in favs:
+	print(favs[key])      # will print the colours
+for v in favs.values():
+	print(v)                   # the same
+for i, j in favs.items():
+	print(i,j)           # both the names and the colours
+```
+
+Now let's see how to add items to a dictionary:
+
+```py
+concepts = {}
+concepts['list'] = 'an ordered collection of values'
+concepts['dictionary'] = 'a collection of key-value pairs'
+concepts
+```
+
+Let's modify values:
+
+```py
+concepts['list'] = 'simple: ' + concepts['list']
+concepts['dictionary'] = 'complex: ' + concepts['dictionary']
+concepts
+```
+
+Deleting dictionary items:
+
+```py
+del concepts['list']       # remove the key 'list' and its value
+```
+
+Values can also be numerical:
+
+```py
+grades = {}
+grades['mary'] = 5
+grades['john'] = 4.5
+grades
+```
+
+And so can be the keys:
+
+```py
+grades[1] = 2
+grades
+```
+
+Sorting dictionary items:
+
+```py
+favs = {'mary': 'orange', 'john': 'green', 'eric': 'blue', 'jane': 'orange'}
+sorted(favs)             # returns the sorted list of keys
+sorted(favs.keys())      # the same
+sorted(favs.values())         # returns the sorted list of values
+for k in sorted(favs):
+	print(k, favs[k])          # full dictionary sorted by the key
+```
+
+**[Exercise](./solag.md):** Write a script to print the full dictionary sorted by the value.
+
+Similar to list comprehensions, we can form a dictionary comprehension:
+
+```py
+{k:'.'*k for k in range(10)}
+{k:v*2 for (k,v) in zip(range(10),range(10))}
+{j:c for j,c in enumerate('computer')}
+```

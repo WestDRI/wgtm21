@@ -1,0 +1,36 @@
+#+title: Version control with Git
+#+slug: programming_git
+
+{{<cor>}}Tuesday, May 4{{</cor>}} \\
+{{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
+
+The format for this course will be a combination of interactive Zoom sessions and reading material.
+
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: None.
+
+{{<br>}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/01_git_intro" text="Introduction to the course">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/02_git_why" text="Why Git?">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/03_git_setup" text="Git & GitHub setup">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/04_git_doc" text="Documentation">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/05_git_how" text="How Git works">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}noon–1:30 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/06_git_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/07_git_record" text="Recording history">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/08_git_ignore" text="Ignoring files">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/09_git_stash" text="Stashing changes">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/10_git_branches" text="Branches">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/11_git_timetravel" text="Time travel">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/12_git_remotes" text="Remotes">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/autumnschool2020/13_git_wrapup" text="Final questions">}}

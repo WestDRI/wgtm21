@@ -1,0 +1,37 @@
+#+title: Scientific programming in Julia
+#+slug: programming_julia
+
+{{<cor>}}Tuesday, May 18{{</cor>}} \\
+{{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
+
+The format for this course will be a combination of interactive Zoom sessions and reading material. \\
+Course materials will be added here shortly before the start of the school.
+
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: None.
+
+*Software*: All attendees will need a remote secure shell (SSH) client installed on their computer. On Windows we recommend [[https://mobaxterm.mobatek.net/download.html][the free Home Edition of MobaXterm]]. On Mac and Linux computers SSH is usually pre-installed (try typing ~ssh~ in a terminal to make sure it is there).
+
+{{<br>}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/01_jl_intro" text="Introduction to the course & cluster access">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/02_jl_why" text="Why another programming language?">}} \\
+{{<linkoptional url="https://westgrid-julia.netlify.app/autumnschool2020/03_jl_install" text="(Optional) Local installation">}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/04_jl_doc" text="Documentation">}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/05_jl_repl" text="The Julia REPL">}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/06_jl_pkg" text="Packages">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11 am–1 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/07_jl_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/08_jl_basics" text="Julia basics">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/09_jl_hpc" text="HPC with Julia: a short introduction">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4:30 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/10_jl_parallel" text="HPC with Julia: the n-body problem as an example">}} \\
+{{<linktitle url="https://westgrid-julia.netlify.app/autumnschool2020/11_jl_wrapup" text="Final questions">}}

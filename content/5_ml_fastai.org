@@ -1,0 +1,45 @@
+#+title: Deep learning with fastai
+#+slug: ml_fastai
+
+{{<cor>}}Tuesday, July 6{{</cor>}} \\
+{{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
+
+The format for this course will be a combination of interactive Zoom sessions, reading material, and videos. \\
+Course materials will be added here shortly before the start of the school.
+
+*Instructor*: Marie-Hélène Burle (WestGrid)
+
+*Prerequisites*: Working knowledge of Python or attendance at the [[https://autumnschool.netlify.app/python-menu/][Basics of Python]] course.
+
+*Software*: All attendees will need a remote secure shell (SSH) client installed on their computer. On Windows we recommend [[https://mobaxterm.mobatek.net/download.html][the free Home Edition of MobaXterm]]. On Mac and Linux computers SSH is usually pre-installed (try typing ~ssh~ in a terminal to make sure it is there).
+
+{{<br>}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/01_pt_intro" text="Introduction to the course & cluster access">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/02_pt_ml" text="AI, machine learning, deep learning">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/03_pt_framework" text="Which framework to choose?">}} \\
+{{<linkoptional url="https://westgrid-ml.netlify.app/autumnschool2020/04_pt_install" text="(Optional) Local installation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/05_pt_doc" text="Documentation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/06_pt_nn" text="Artificial neural networks">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/07_pt_learning" text="How do neural networks learn?">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/08_pt_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/09_pt_tensor" text="PyTorch tensors">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/10_pt_mnist" text="The MNIST">}}
+
+{{<cbr>}}On your own{{</cbr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/11_pt_backprop" text="Backpropagation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/12_pt_calculus" text="A bit of calculus">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/13_pt_autograd" text="Automatic differentiation">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/15_pt_wrapup" text="Final questions">}}
+
+{{<clg>}}(Additional readings){{</clg>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/16_pt_hpc" text="HPC with Python">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/17_pt_distributed" text="A few notes on PyTorch distributed computing">}}
