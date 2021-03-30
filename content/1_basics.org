@@ -1,9 +1,9 @@
-#+title: Remote computing
+#+title: Module 1 — Remote computing
 #+slug: basics
 
 {{<cor>}}Tuesday, April 20{{</cor>}} \\
-{{<cgr>}}Shell scripting with Bash{{</cgr>}}
+{{<c link="/basics_bash" topic="Shell scripting with Bash" >}}
 
 {{<cor>}}Tuesday, April 27{{</cor>}} \\
-{{<cgr>}}Introduction to HPC{{</cgr>}}
+{{<c link="/basics_hpc" topic="Introduction to HPC" >}}
 

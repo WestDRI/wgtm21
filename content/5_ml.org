@@ -1,4 +1,5 @@
-#+title: Deep learning with fastai
+#+title: Module 5 — Machine learning
 #+slug: ml
 
-{{<cor>}}Tuesday, July 6{{</cor>}}
+{{<cor>}}Tuesday, July 6{{</cor>}}\\
+{{<c link="/ml_fastai" topic="Deep learning with fastai" >}}

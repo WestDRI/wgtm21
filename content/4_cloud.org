@@ -1,8 +1,8 @@
-#+title: Compute Canada cloud
+#+title: Module 4 — Compute Canada cloud
 #+slug: cloud
 
 {{<cor>}}Tuesday, June 22{{</cor>}} \\
-{{<cgr>}}Introduction to the cloud{{</cgr>}}
+{{<c link="/cloud_cloud" topic="Introduction to the cloud" >}}
 
 {{<cor>}}Tuesday, June 29{{</cor>}} \\
-{{<cgr>}}Docker{{</cgr>}}
+{{<c link="/cloud_docker" topic="Docker" >}}

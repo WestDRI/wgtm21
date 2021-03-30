@@ -1,8 +1,8 @@
-#+title: Parallel coding
+#+title: Module 3 — Parallel coding
 #+slug: parallel
 
 {{<cor>}}Tuesday, May 25{{</cor>}} \\
-{{<cgr>}}Parallel programming in Chapel{{</cgr>}}
+{{<c link="/parallel_chapel" topic="Parallel programming in Chapel" >}}
 
 {{<cor>}}Tuesday, June 8{{</cor>}} \\
-{{<cgr>}}Parallel computing in Julia{{</cgr>}}
+{{<c link="/parallel_julia" topic="Parallel computing in Julia" >}}

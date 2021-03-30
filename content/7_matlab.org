@@ -1,4 +1,8 @@
-#+title: Matlab
+#+title: Module 7 — Matlab
 #+slug: matlab
 
-{{<cor>}}Tuesday, July 20{{</cor>}}
+{{<cor>}}Tuesday, July 20{{</cor>}}\\
+{{<c link="/matlab_parallel" topic="Parallel programming with Matlab" >}}
+
+{{<cor>}}Tuesday, July 27{{</cor>}}\\
+{{<c link="/matlab_ml" topic="Machine learning with Matlab" >}}
