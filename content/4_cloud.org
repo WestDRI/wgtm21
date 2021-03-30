@@ -2,7 +2,7 @@
 #+slug: cloud
 
 {{<cor>}}Tuesday, June 22{{</cor>}} \\
-{{<c link="/cloud_cloud" topic="Introduction to the cloud" >}}
+{{<c link="/cloud_cloud" topic="Introduction to Compute Canada cloud" >}}
 
 {{<cor>}}Tuesday, June 29{{</cor>}} \\
 {{<c link="/cloud_docker" topic="Docker" >}}

@@ -1,5 +1,5 @@
 #+title: Module 6 — Scientific visualization
 #+slug: scivis
 
-{{<cor>}}Thursday, June 17{{</cor>}}\\
+{{<cor>}}Thursday, July 13{{</cor>}}\\
 {{<c link="/scivis_scivis" topic="3D scientific visualization with ParaView" >}}
