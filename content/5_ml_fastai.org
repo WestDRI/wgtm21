@@ -16,30 +16,30 @@ Course materials will be added here shortly before the start of the school.
 {{<br>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/01_pt_intro" text="Introduction to the course & cluster access">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/01_pt_intro" text="Introduction to the course & cluster access">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/02_pt_ml" text="AI, machine learning, deep learning">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/03_pt_framework" text="Which framework to choose?">}} \\
-{{<linkoptional url="https://westgrid-ml.netlify.app/autumnschool2020/04_pt_install" text="(Optional) Local installation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/05_pt_doc" text="Documentation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/06_pt_nn" text="Artificial neural networks">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/07_pt_learning" text="How do neural networks learn?">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/02_pt_ml" text="AI, machine learning, deep learning">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/03_pt_framework" text="Which framework to choose?">}} \\
+{{<linkoptional url="https://westgrid-ml.netlify.app/modules2021/04_pt_install" text="(Optional) Local installation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/05_pt_doc" text="Documentation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/06_pt_nn" text="Artificial neural networks">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/07_pt_learning" text="How do neural networks learn?">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/08_pt_questions" text="Questions so far">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/09_pt_tensor" text="PyTorch tensors">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/10_pt_mnist" text="The MNIST">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/08_pt_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/09_pt_tensor" text="PyTorch tensors">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/10_pt_mnist" text="The MNIST">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/11_pt_backprop" text="Backpropagation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/12_pt_calculus" text="A bit of calculus">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/13_pt_autograd" text="Automatic differentiation">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/11_pt_backprop" text="Backpropagation">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/12_pt_calculus" text="A bit of calculus">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/13_pt_autograd" text="Automatic differentiation">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/15_pt_wrapup" text="Final questions">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/15_pt_wrapup" text="Final questions">}}
 
 {{<clg>}}(Additional readings){{</clg>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/16_pt_hpc" text="HPC with Python">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/autumnschool2020/17_pt_distributed" text="A few notes on PyTorch distributed computing">}}
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/16_pt_hpc" text="HPC with Python">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/17_pt_distributed" text="A few notes on PyTorch distributed computing">}}
