@@ -1,4 +1,4 @@
-#+title: Modules information
+#+title: Information
 #+slug: info
 
 
