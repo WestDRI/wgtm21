@@ -1,4 +1,4 @@
-#+title: Module 1 — Remote computing
+#+title: Module 1 — Remote computing basics
 #+slug: basics
 
 {{<cor>}}Tuesday, April 20{{</cor>}} \\
