@@ -15,12 +15,14 @@
       font-family: $heading-font-family;
       font-weight: 700;
       line-height: 3.0rem;
-      color: $link-color;
+      // color: $link-color;
+      color: #3f3f40;
     }
     a {
       &:hover,
       &:focus {
-	color: $link-color
+	// color: $link-color
+	color: #3f3f40;
       }
     }
   }
