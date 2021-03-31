@@ -264,7 +264,7 @@ ul {
   // font-size: 1.7rem;
   padding-left: 30rem;
   @media only screen and (max-width : 480px) {
-    padding-left: 3rem;
+    padding-left: 0rem;
   }
   &:hover,
   &:focus {
@@ -287,7 +287,7 @@ ul {
   // font-size: 1.7rem;
   padding-left: 30rem;
   @media only screen and (max-width : 480px) {
-    padding-left: 3rem;
+    padding-left: 0rem;
   }
   &:hover,
   &:focus {
@@ -302,7 +302,7 @@ ul {
   font-family: $heading-font-family;
   padding-left: 30rem;
   @media only screen and (max-width : 480px) {
-    padding-left: 3rem;
+    padding-left: 0rem;
   }
 }
 
@@ -336,6 +336,7 @@ ul {
   border-radius: 3px;
   box-shadow: 0px 0px 6px #c6b7c8;
 }
+
 // #frontdates {
 //   padding-left: 6.0rem;
 //   font-size: 1.8rem;
@@ -370,6 +371,7 @@ ul {
 //     padding-left: 6.0rem;
 //   }
 // }
+
 #frontdates {
   padding-left: 6.0rem;
   font-size: 1.7rem;
