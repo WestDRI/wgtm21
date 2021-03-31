@@ -416,3 +416,57 @@ ul {
     // padding-left: 1.0rem;
   }
 }
+
+.cor {
+  color: #3f3f40;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 0rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+.cbr {
+  color: #3f3f40;
+  font-size: 1.9rem;
+  font-weight: 600;
+  line-height: 0rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+.cgr {
+  color: #3f3f40;
+  font-weight: 600;
+  line-height: 4rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+.clg {
+  color: #7e7e81;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 0rem;
+  @media only screen and (max-width : 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+.c {
+  a,
+  a:hover,
+  a:focus,
+  a:visited {
+    color: #80961d;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 0rem;
+    @media only screen and (max-width : 480px) {
+      font-size: 1.5rem;
+    }
+  }
+}
