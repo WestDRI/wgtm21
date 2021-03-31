@@ -386,8 +386,8 @@ ul {
   font-weight: 700;
   @media only screen and (max-width : 480px) {
     padding-left: 0rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
   a,
   a:hover,
@@ -400,8 +400,8 @@ ul {
     font-family: $heading-font-family;
     font-weight: 700;
     @media only screen and (max-width : 480px) {
-      font-size: 1.4rem;
-      line-height: 2rem;
+      font-size: 1.7rem;
+      line-height: 2.5rem;
     }
   }
   .left {
@@ -421,7 +421,7 @@ ul {
     display: table-cell;
     // padding-left: 1.0rem;
     @media only screen and (max-width : 480px) {
-      line-height: 2.0rem;
+      line-height: 2.5rem;
     }
   }
 }
