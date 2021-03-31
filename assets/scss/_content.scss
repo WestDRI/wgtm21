@@ -387,38 +387,42 @@ ul {
   @media only screen and (max-width : 480px) {
     padding-left: 0rem;
     font-size: 1.2rem;
-    line-height: 0rem;
+    line-height: 2rem;
   }
   a,
   a:hover,
   a:focus,
   a:visited {
     font-size: 2rem;
-    @media only screen and (max-width : 480px) {
-      font-size: 1.4rem;
-    }
     line-height: 4.2rem;
     // color: #58585a;
     color: $link-color;
     font-family: $heading-font-family;
     font-weight: 700;
+    @media only screen and (max-width : 480px) {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
   }
   .left {
     // font-family: $heading-font-family;
     display: table-cell;
     width: 28.0rem;
-    @media only screen and (max-width : 480px) {
-      width: 21.0rem;
-    }
     // text-align: right;
     text-align: left;
     font-weight: bold;
+    @media only screen and (max-width : 480px) {
+      width: 21.0rem;
+    }
   }
   .right {
     font-family: $heading-font-family;
     line-height: 3.0rem;
     display: table-cell;
     // padding-left: 1.0rem;
+    @media only screen and (max-width : 480px) {
+      line-height: 2.0rem;
+    }
   }
 }
 
