@@ -35,24 +35,20 @@ usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:45am Pacific{{</cgr>}} \
 {{<linktitle url="../chapel1" text="Morning opening session">}}
 
-<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<nolinktitle>}}Basic language features{{</nolinktitle>}} \ -->
-<!-- {{<nolinktitle>}}Task parallelism{{</nolinktitle>}} -->
-
 {{<cbr>}}On your own{{</cbr>}} \
-{{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \
-{{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can)
+{{<nolinktitle>}}Basic language features{{</nolinktitle>}} \
+{{<nolinktitle>}}Task parallelism{{</nolinktitle>}}
+<!-- {{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \ -->
+<!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can) -->
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:30pm-2pm Pacific{{</cgr>}} \
 {{<linktitle url="../chapel2" text="Mid-day session">}}
 
-<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<nolinktitle>}}Task parallelism (cont.){{</nolinktitle>}} \ -->
-<!-- {{<nolinktitle>}}Data parallelism{{</nolinktitle>}} -->
-
 {{<cbr>}}On your own{{</cbr>}} \
-{{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism (cont.)">}} &nbsp; (continue where you left off) \
-{{<linktitle url="../chapel/chapel-03-domain-parallelism" text="Data parallelism">}}
+{{<nolinktitle>}}Task parallelism (cont.){{</nolinktitle>}} \
+{{<nolinktitle>}}Data parallelism{{</nolinktitle>}}
+<!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism (cont.)">}} &nbsp; (continue where you left off) \ -->
+<!-- {{<linktitle url="../chapel/chapel-03-domain-parallelism" text="Data parallelism">}} -->
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:30pm-5pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}}
