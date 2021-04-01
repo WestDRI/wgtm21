@@ -15,31 +15,60 @@ Course materials will be added here shortly before the start of the school.
 
 {{<br>}}
 
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/01_pt_intro" text="Introduction to the course & cluster access">}}
+
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/01_pt_intro" text="Introduction to the course & cluster access">}}
+{{<nolinktitle>}}Introduction to the course & cluster access{{</nolinktitle>}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/02_pt_ml" text="AI, machine learning, deep learning">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/03_pt_framework" text="Which framework to choose?">}} \\
+# {{<linkoptional url="https://westgrid-ml.netlify.app/modules2021/04_pt_install" text="(Optional) Local installation">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/05_pt_doc" text="Documentation">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/06_pt_nn" text="Artificial neural networks">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/07_pt_learning" text="How do neural networks learn?">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/02_pt_ml" text="AI, machine learning, deep learning">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/03_pt_framework" text="Which framework to choose?">}} \\
-{{<linkoptional url="https://westgrid-ml.netlify.app/modules2021/04_pt_install" text="(Optional) Local installation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/05_pt_doc" text="Documentation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/06_pt_nn" text="Artificial neural networks">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/07_pt_learning" text="How do neural networks learn?">}}
+{{<nolinktitle>}}AI, machine learning, deep learning{{</nolinktitle>}} \\
+{{<nolinktitle>}}Which framework to choose?{{</nolinktitle>}} \\
+{{<nolinktitle>}}(Optional) Local installation{{</nolinktitle>}} \\
+{{<nolinktitle>}}Documentation{{</nolinktitle>}} \\
+{{<nolinktitle>}}Artificial neural networks{{</nolinktitle>}} \\
+{{<nolinktitle>}}How do neural networks learn?{{</nolinktitle>}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/08_pt_questions" text="Questions so far">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/09_pt_tensor" text="PyTorch tensors">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/10_pt_mnist" text="The MNIST">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/08_pt_questions" text="Questions so far">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/09_pt_tensor" text="PyTorch tensors">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/10_pt_mnist" text="The MNIST">}}
+{{<nolinktitle>}}Questions so far{{</nolinktitle>}} \\
+{{<nolinktitle>}}PyTorch tensors{{</nolinktitle>}} \\
+{{<nolinktitle>}}The MNIST{{</nolinktitle>}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/11_pt_backprop" text="Backpropagation">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/12_pt_calculus" text="A bit of calculus">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/13_pt_autograd" text="Automatic differentiation">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/11_pt_backprop" text="Backpropagation">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/12_pt_calculus" text="A bit of calculus">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/13_pt_autograd" text="Automatic differentiation">}}
+{{<nolinktitle>}}Backpropagation{{</nolinktitle>}} \\
+{{<nolinktitle>}}A bit of calculus{{</nolinktitle>}} \\
+{{<nolinktitle>}}Automatic differentiation{{</nolinktitle>}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/15_pt_wrapup" text="Final questions">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/14_pt_ournn" text="Our NN to classify the MNIST">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/15_pt_wrapup" text="Final questions">}}
+{{<nolinktitle>}}Our NN to classify the MNIST{{</nolinktitle>}} \\
+{{<nolinktitle>}}Final questions{{</nolinktitle>}}
+
+# {{<clg>}}(Additional readings){{</clg>}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/16_pt_hpc" text="HPC with Python">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/modules2021/17_pt_distributed" text="A few notes on PyTorch distributed computing">}}
 
 {{<clg>}}(Additional readings){{</clg>}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/16_pt_hpc" text="HPC with Python">}} \\
-{{<linktitle url="https://westgrid-ml.netlify.app/modules2021/17_pt_distributed" text="A few notes on PyTorch distributed computing">}}
+{{<nolinktitle>}}HPC with Python{{</nolinktitle>}} \\
+{{<nolinktitle>}}A few notes on PyTorch distributed computing{{</nolinktitle>}}
