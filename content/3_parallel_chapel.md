@@ -23,7 +23,7 @@ can run on any Unix-like operating system, with hardware support from laptops to
 **Instructor**: Alex Razoumov (WestGrid)
 
 **Prerequisites:** working knowledge of the Linux Bash shell and familiarity with Compute Canada's HPC cluster
-  environment, in particular, with the Slurm scheduler (covered in this school's HPC course).
+  environment, in particular, with the Slurm scheduler (covered in [our HPC course](../basics_hpc)).
 
 **Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in order to
 participate in the course exercises. On Windows we recommend
