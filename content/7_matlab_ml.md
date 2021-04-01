@@ -1,5 +1,5 @@
 +++
-title = "Machine learning with Matlab"
+title = "Machine / Deep Learning with MATLAB"
 slug = "matlab_ml"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Parallel programming with Matlab"
+title = "Parallel programming with MATLAB"
 slug = "matlab_parallel"
 +++
 

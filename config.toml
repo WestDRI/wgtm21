@@ -61,6 +61,6 @@ canonifyurls = true
 	    url  = "scivis"
 
 	    [[languages.en.menu.main]]
-	    name = "Matlab"
+	    name = "MATLAB"
 	    weight = 7
 	    url  = "matlab"
