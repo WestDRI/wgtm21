@@ -4,7 +4,7 @@
 {{<cor>}}Tuesday, May 11{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
-The format for this course will be a combination of interactive Zoom sessions and reading material.
+This course introduces version control with Git and covers the most common operations. It puts a particular emphasis on explaining the functioning of Git: understanding what commands really do brings the confidence to go beyond the limited use of "add, commit, push" so common in data science fields.
 
 *Instructor*: Marie-Hélène Burle (WestGrid)
 
