@@ -4,8 +4,7 @@
 {{<cor>}}Tuesday, May 25{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
-The format for this course will be a combination of interactive Zoom sessions and reading material. \\
-Course materials will be added here shortly before the start of the school.
+This course will introduce you to the basics of [[https://julialang.org/][Julia]]—a fast and dynamic language particularly well suited for heavy computations.
 
 *Instructor*: Marie-Hélène Burle (WestGrid)
 
