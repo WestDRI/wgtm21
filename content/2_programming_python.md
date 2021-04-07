@@ -3,7 +3,7 @@ title = "Basics of Python"
 slug = "programming_python"
 +++
 
-{{<cor>}}Tuesday, May 11{{</cor>}}\
+{{<cor>}}Tuesday, May 18{{</cor>}}\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time.

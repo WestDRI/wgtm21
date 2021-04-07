@@ -3,7 +3,7 @@ title = "Shell scripting with Bash"
 slug = "basics_bash"
 +++
 
-{{<cor>}}Tuesday, April 20{{</cor>}}\
+{{<cor>}}Tuesday, April 27{{</cor>}}\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
 This course will start at 9am Pacific Time and will run until 5pm Pacific Time. Its format will be a combination of

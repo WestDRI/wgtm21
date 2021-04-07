@@ -1,7 +1,7 @@
 #+title: Scientific programming in Julia
 #+slug: programming_julia
 
-{{<cor>}}Tuesday, May 18{{</cor>}} \\
+{{<cor>}}Tuesday, May 25{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
 The format for this course will be a combination of interactive Zoom sessions and reading material. \\

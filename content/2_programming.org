@@ -1,11 +1,11 @@
 #+title: Module 2 — Programming tools
 #+slug: programming
 
-{{<cor>}}Tuesday, May 4{{</cor>}} \\
+{{<cor>}}Tuesday, May 11{{</cor>}} \\
 {{<c link="/programming_git" topic="Version control with Git" >}}
 
-{{<cor>}}Tuesday, May 11{{</cor>}} \\
+{{<cor>}}Tuesday, May 18{{</cor>}} \\
 {{<c link="/programming_python" topic="Basics of Python" >}}
 
-{{<cor>}}Tuesday, May 18{{</cor>}} \\
+{{<cor>}}Tuesday, May 25{{</cor>}} \\
 {{<c link="/programming_julia" topic="Introductory Julia" >}}

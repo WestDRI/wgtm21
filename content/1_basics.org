@@ -1,8 +1,8 @@
 #+title: Module 1 — Remote computing basics
 #+slug: basics
 
-{{<cor>}}Tuesday, April 20{{</cor>}} \\
+{{<cor>}}Tuesday, April 27{{</cor>}} \\
 {{<c link="/basics_bash" topic="Bash command line" >}}
 
-{{<cor>}}Tuesday, April 27{{</cor>}} \\
+{{<cor>}}Tuesday, May 4{{</cor>}} \\
 {{<c link="/basics_hpc" topic="Introduction to HPC" >}}

@@ -1,7 +1,7 @@
 #+title: Module 3 — Parallel coding
 #+slug: parallel
 
-{{<cor>}}Tuesday, May 25{{</cor>}} \\
+{{<cor>}}Tuesday, June 1{{</cor>}} \\
 {{<c link="/parallel_chapel" topic="Parallel programming in Chapel" >}}
 
 {{<cor>}}Tuesday, June 8{{</cor>}} \\
