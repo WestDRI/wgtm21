@@ -4,8 +4,7 @@
 {{<cor>}}Tuesday, July 6{{</cor>}} \\
 {{<cgr>}}9 am–5 pm Pacific Time{{</cgr>}}
 
-The format for this course will be a combination of interactive Zoom sessions, reading material, and videos. \\
-Course materials will be added here shortly before the start of the school.
+This course, suitable for people with no knowledge of machine learning, will walk you through the core concepts of neural networks and give you the tools necessary to build your own models to solve problems. We will use [[https://github.com/fastai/fastai][fastai]]—a deep learning library building on top of PyTorch—as it gives the option of high-level fast implementation without compromising with the lower level flexibility of PyTorch.
 
 *Instructor*: Marie-Hélène Burle (WestGrid)
 
