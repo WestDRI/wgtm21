@@ -5,5 +5,5 @@
 {{<c link="/scivis_scivis" topic="3D scientific visualization with ParaView" >}}
 
 #+BEGIN_export html
-Registration is <a href="https://www.eventbrite.ca/e/149983385343" target="_blank">now open</a>.
+<a href="https://www.eventbrite.ca/e/149983385343" target="_blank">Click here</a> to register for this module.
 #+END_export

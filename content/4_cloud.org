@@ -8,5 +8,5 @@
 {{<c link="/cloud_docker" topic="Docker" >}}
 
 #+BEGIN_export html
-Registration is <a href="https://www.eventbrite.ca/e/149982765489" target="_blank">now open</a>.
+<a href="https://www.eventbrite.ca/e/149982765489" target="_blank">Click here</a> to register for this module.
 #+END_export

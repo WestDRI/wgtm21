@@ -8,5 +8,5 @@
 {{<c link="/matlab_ml" topic="Machine Learning and Deep Learning with MATLAB" >}}
 
 #+BEGIN_export html
-Registration is <a href="https://www.eventbrite.ca/e/149983792561" target="_blank">now open</a>.
+<a href="https://www.eventbrite.ca/e/149983792561" target="_blank">Click here</a> to register for this module.
 #+END_export
