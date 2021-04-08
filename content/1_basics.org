@@ -6,3 +6,5 @@
 
 {{<cor>}}Tuesday, May 4{{</cor>}} \\
 {{<c link="/basics_hpc" topic="Introduction to HPC" >}}
+
+Registration is [[https://www.eventbrite.ca/e/149982356265][now open]].

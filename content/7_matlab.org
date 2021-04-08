@@ -6,3 +6,5 @@
 
 {{<cor>}}Tuesday, July 27{{</cor>}}\\
 {{<c link="/matlab_ml" topic="Machine Learning and Deep Learning with MATLAB" >}}
+
+Registration is [[https://www.eventbrite.ca/e/149983792561][now open]].

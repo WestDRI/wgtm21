@@ -9,3 +9,5 @@
 
 {{<cor>}}Tuesday, May 25{{</cor>}} \\
 {{<c link="/programming_julia" topic="Introductory Julia" >}}
+
+Registration is [[https://www.eventbrite.ca/e/149942067761][now open]].

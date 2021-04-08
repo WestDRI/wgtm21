@@ -6,3 +6,5 @@
 
 {{<cor>}}Tuesday, June 29{{</cor>}} \\
 {{<c link="/cloud_docker" topic="Docker" >}}
+
+Registration is [[https://www.eventbrite.ca/e/149982765489][now open]].

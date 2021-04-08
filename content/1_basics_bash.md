@@ -1,5 +1,5 @@
 +++
-title = "Shell scripting with Bash"
+title = "Bash command line"
 slug = "basics_bash"
 +++
 

@@ -3,3 +3,5 @@
 
 {{<cor>}}Tuesday, July 13{{</cor>}}\\
 {{<c link="/scivis_scivis" topic="3D scientific visualization with ParaView" >}}
+
+Registration is [[https://www.eventbrite.ca/e/149983385343][now open]].
