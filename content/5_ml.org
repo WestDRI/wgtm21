@@ -4,4 +4,6 @@
 {{<cor>}}Tuesday, July 6{{</cor>}}\\
 {{<c link="/ml_fastai" topic="Deep learning with fastai" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149983054353][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149983054353" target="_blank">now open</a>.
+#+END_export

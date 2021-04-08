@@ -7,4 +7,6 @@
 {{<cor>}}Tuesday, June 8{{</cor>}} \\
 {{<c link="/parallel_julia" topic="Parallel computing in Julia" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149982540817][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149982540817" target="_blank">now open</a>.
+#+END_export

@@ -7,4 +7,6 @@
 {{<cor>}}Tuesday, May 4{{</cor>}} \\
 {{<c link="/basics_hpc" topic="Introduction to HPC" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149982356265][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149982356265" target="_blank">now open</a>.
+#+END_export

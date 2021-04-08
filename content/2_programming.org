@@ -10,4 +10,6 @@
 {{<cor>}}Tuesday, May 25{{</cor>}} \\
 {{<c link="/programming_julia" topic="Introductory Julia" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149942067761][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149942067761" target="_blank">now open</a>.
+#+END_export

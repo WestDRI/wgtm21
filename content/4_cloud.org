@@ -7,4 +7,6 @@
 {{<cor>}}Tuesday, June 29{{</cor>}} \\
 {{<c link="/cloud_docker" topic="Docker" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149982765489][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149982765489" target="_blank">now open</a>.
+#+END_export

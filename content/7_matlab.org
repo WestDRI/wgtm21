@@ -7,4 +7,6 @@
 {{<cor>}}Tuesday, July 27{{</cor>}}\\
 {{<c link="/matlab_ml" topic="Machine Learning and Deep Learning with MATLAB" >}}
 
-Registration is [[https://www.eventbrite.ca/e/149983792561][now open]].
+#+BEGIN_export html
+Registration is <a href="https://www.eventbrite.ca/e/149983792561" target="_blank">now open</a>.
+#+END_export
