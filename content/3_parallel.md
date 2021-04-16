@@ -17,8 +17,9 @@ These concepts are not unique to a single programming language. We cover most of
 courses, so feel free to attend one of them (they are independent of each other), or both.
 
 Both languages are relatively new. Julia was designed primarily for scientific computing on a multi-core desktop, with
-more advanced parallel features added along the way, and not everything working as expected right out of the box. Chapel
-was designed specifically for HPC, with support for shared- and distributed-memory programming built into the language.
+more advanced parallel features added along the way, with not everything working as expected right out of the
+box. Chapel was designed specifically for HPC, with support for shared- and distributed-memory programming built into
+the language.
 
 {{<cor>}}Tuesday, June 1{{</cor>}} \
 {{<c link="/parallel_chapel" topic="Parallel programming in Chapel" >}}
