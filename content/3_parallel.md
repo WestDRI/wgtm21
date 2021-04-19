@@ -34,4 +34,6 @@ language.
 <!-- <a href="https://www.eventbrite.ca/e/149982540817" target="_blank">Click here</a> to register for this module. -->
 <!-- #+END_export -->
 
+&nbsp;
+
 [Click here](https://www.eventbrite.ca/e/149982540817) to register for this module.
