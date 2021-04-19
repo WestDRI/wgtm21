@@ -4,24 +4,46 @@ slug = "matlab_parallel"
 +++
 
 {{<cor>}}Wednesday, July 21{{</cor>}}\
-{{<cgr>}}9 am–2:30 pm Pacific Time{{</cgr>}}
+{{<cgr>}}9 am–3:30 pm Pacific Time{{</cgr>}}
 
 <!-- 9-10 am Pacific Live Intro session -->
 <!-- 10-1 pm Pacific Self learning (video and exercises) -->
 <!-- 1-2:30 pm Pacific Live QA session -->
 
-This is a hands-on introduction to parallel computing with MATLAB and running parallel MATLAB jobs on Compute Canada's
-Cedar cluster.
+During this self-paced, hands-on workshop, you will be introduced to parallel and GPU computing in MATLAB for speeding
+up your application and offloading computations. By working through common scenarios and workflows, you will gain an
+understanding of the parallel constructs in MATLAB, their capabilities, and some of the issues that may arise when using
+them.
+
+**Agenda**:
+
+- Speeding up programs with parallel computing
+- Working with large data sets
+- GPU computing
+- Scaling to Compute Canada HPC cluster
 
 **Instructor**: Raymond Norris (MathWorks)
 
-**Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in
-order to participate in the course exercises. On Windows we recommend
-[the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux
-computers SSH is usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
+**Prerequisites**:
 
-Also, please ensure you have the following:
+- working knowledge of MATLAB,
+- a [supported browser](https://www.mathworks.com/support/requirements/browser-requirements.html),
+- a MathWorks account (if you don't already have one please go [here](https://www.mathworks.com/login) to create one), and
+- working knowledge of the Linux Bash shell and familiarity with Compute Canada's HPC cluster environment, in
+  particular, with the Slurm scheduler (covered in [our HPC course](../basics_hpc)).
 
-- a [supported browser](https://www.mathworks.com/support/requirements/browser-requirements.html)
-- a MathWorks account (if you don't already have one please go [here](https://www.mathworks.com/login)
-  to create one)
+**Software**: We'll be running MATLAB in a browser.
+
+<!-- All attendees will need a remote secure shell (SSH) client installed -->
+<!-- on their computer in order to participate in the course exercises. On Windows we recommend -->
+<!-- [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is -->
+<!-- usually pre-installed (try typing `ssh` in a terminal to make sure it is there). -->
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-10:15am Pacific{{</cgr>}} \
+{{<nolinktitle>}}Live introduction session{{</nolinktitle>}}
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<nolinktitle>}}Parallel Computing Workshop exercises{{</nolinktitle>}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}01:00pm-3:30pm Pacific{{</cgr>}} \
+{{<nolinktitle>}}MATLAB on HPC, Q&A, Wrap-up{{</nolinktitle>}}
