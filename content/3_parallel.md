@@ -11,7 +11,7 @@ The goal of this module is to teach basic concepts of parallel programming:
 
 We will discuss different approaches to parallelization: task parallelism and data parallelism. We will talk about
 processing large arrays in parallel. Equally important, we will discuss parallel scaling, typical parallel performance
-bottlenecks, race conditions and other potential issues you may encouter in parallel programming.
+bottlenecks, race conditions and deadlocks, and other potential issues you may encouter in parallel programming.
 
 These concepts are not unique to a single programming language. We cover most of these topics in both Julia and Chapel
 courses, so feel free to attend one of them (they are independent of each other), or both. Ultimately it comes down to a
