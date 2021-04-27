@@ -76,4 +76,4 @@ contents. A number of 3rd-party tools can add indexing to `tar`. However, there 
 
 and so on. Learning DAR is not part of this course. In the future, if you want to know more about working
 with DAR, please watch our [DAR webinar](https://westgrid.github.io/trainingMaterials/tools/rdm) (scroll
-down to see it).
+down to see it), or check our [DAR documentation page](https://docs.computecanada.ca/wiki/Dar).
