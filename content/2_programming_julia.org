@@ -15,17 +15,17 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 {{<br>}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/01_jl_intro" text="Introduction to the course & cluster access">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/01_jl_intro" text="Introduction to the course & cluster access">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Introduction to the course & cluster access{{</nolinktitle>}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/02_jl_why" text="Why another programming language?">}} \\
-# {{<linkoptional url="https://westgrid-julia.netlify.app/modules2021/03_jl_install" text="(Optional) Local installation">}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/04_jl_doc" text="Documentation">}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/05_jl_repl" text="The Julia REPL">}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/06_jl_pkg" text="Packages">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/02_jl_why" text="Why another programming language?">}} \\
+# {{<linkoptional url="https://westgrid-julia.netlify.app/2021_modules/03_jl_install" text="(Optional) Local installation">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/04_jl_doc" text="Documentation">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/05_jl_repl" text="The Julia REPL">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/06_jl_pkg" text="Packages">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<nolinktitle>}}Why another programming language?{{</nolinktitle>}} \\
@@ -35,22 +35,22 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 {{<nolinktitle>}}Packages{{</nolinktitle>}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11 am–1 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/07_jl_questions" text="Questions so far">}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/08_jl_basics" text="Julia basics">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/07_jl_questions" text="Questions so far">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/08_jl_basics" text="Julia basics">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11 am–1 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Questions so far{{</nolinktitle>}} \\
 {{<nolinktitle>}}Julia basics{{</nolinktitle>}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/09_jl_hpc" text="HPC with Julia: a short introduction">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/09_jl_hpc" text="HPC with Julia: a short introduction">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<nolinktitle>}}HPC with Julia: a short introduction{{</nolinktitle>}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4:30 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/10_jl_parallel" text="HPC with Julia: the n-body problem as an example">}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/modules2021/11_jl_wrapup" text="Final questions">}}
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/10_jl_parallel" text="HPC with Julia: the n-body problem as an example">}} \\
+# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/11_jl_wrapup" text="Final questions">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4:30 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}HPC with Julia: the n-body problem as an example{{</nolinktitle>}} \\

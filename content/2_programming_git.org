@@ -13,13 +13,13 @@ This course introduces version control with Git and covers the most common opera
 {{<br>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:15 am Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/modules2021/01_git_intro" text="Introduction to the course">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/01_git_intro" text="Introduction to the course">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/02_git_why" text="Why Git?">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/03_git_setup" text="Git & GitHub setup">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/04_git_doc" text="Documentation">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/05_git_how" text="How Git works">}}
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/02_git_why" text="Why Git?">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/03_git_setup" text="Git & GitHub setup">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/04_git_doc" text="Documentation">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/05_git_how" text="How Git works">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<nolinktitle>}}Why Git?{{</nolinktitle>}} \\
@@ -28,23 +28,23 @@ This course introduces version control with Git and covers the most common opera
 {{<nolinktitle>}}How Git works{{</nolinktitle>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}noon–1:30 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/modules2021/06_git_questions" text="Questions so far">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/06_git_questions" text="Questions so far">}} \\
 {{<nolinktitle>}}Recording history{{</nolinktitle>}}
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/07_git_record" text="Recording history">}}
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/07_git_record" text="Recording history">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/08_git_ignore" text="Ignoring files">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/09_git_stash" text="Stashing changes">}}
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/08_git_ignore" text="Ignoring files">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/09_git_stash" text="Stashing changes">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<nolinktitle>}}Ignoring files{{</nolinktitle>}} \\
 {{<nolinktitle>}}Stashing changes{{</nolinktitle>}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/10_git_branches" text="Branches">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/11_git_timetravel" text="Time travel">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/12_git_remotes" text="Remotes">}} \\
-# {{<linktitle url="https://westgrid-cli.netlify.app/modules2021/13_git_wrapup" text="Final questions">}}
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/10_git_branches" text="Branches">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/11_git_timetravel" text="Time travel">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/12_git_remotes" text="Remotes">}} \\
+# {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/13_git_wrapup" text="Final questions">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Branches{{</nolinktitle>}} \\
