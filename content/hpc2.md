@@ -6,8 +6,14 @@ slug = "hpc2"
 <!-- In this session, I will cover the program for today, answer any questions -->
 <!-- and share the afternoon exercises. -->
 
-1. Review the program for this afternoon: you have **1h15m** of videos to watch.
+### Part 1: morning materials
+
 1. Answer any questions.
+1. Go together through the challenges, do some exercises, and debug problems.
+
+### Part 2: afternoon materials
+
+1. Review the program for this afternoon: you have **1h15m** of videos to watch.
 
 By the end of the day you should be familiar with:
 
