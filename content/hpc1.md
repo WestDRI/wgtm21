@@ -9,6 +9,7 @@ slug = "hpc1"
 1. Instructor / helpers / course introduction.
 1. Distribute the usernames, share the password.
 1. Let's try to log in to the training cluster.
+1. Download [today's materials](http://bit.ly/introhpc) (ZIP file with slides and codes inside).
 1. Review the program for this morning: you have **1h49m** of videos to watch.
 
 By mid-day you should be familiar with:
