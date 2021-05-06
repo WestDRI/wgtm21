@@ -29,7 +29,7 @@ This course introduces version control with Git and covers the most common opera
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/08_git_stash" text="Stashing changes">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3–5 pm Pacific Time{{</cgr>}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/09_git_branches" text="Branches">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/10_git_timetravel" text="Time travel">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/11_git_remotes" text="Remotes">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/09_git_timetravel" text="Time travel">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/10_git_remotes" text="Remotes">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/11_git_branches" text="Branches">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/12_git_wrapup" text="Final questions">}}
