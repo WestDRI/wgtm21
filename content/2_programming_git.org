@@ -32,4 +32,5 @@ This course introduces version control with Git and covers the most common opera
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/09_git_timetravel" text="Time travel">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/10_git_remotes" text="Remotes">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/11_git_branches" text="Branches">}} \\
-{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/12_git_wrapup" text="Wrapping up">}}
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/12_git_undo" text="Undoing">}} \\
+{{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/13_git_wrapup" text="Wrapping up">}}
