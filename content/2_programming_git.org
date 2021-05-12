@@ -21,7 +21,7 @@ This course introduces version control with Git and covers the most common opera
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/04_git_doc" text="Documentation">}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/05_git_how" text="Understanding Git">}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}noon–1:30 pm Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12–1:30 pm Pacific Time{{</cgr>}} \\
 {{<linktitle url="https://westgrid-cli.netlify.app/2021_modules/06_git_record" text="Let's create a project history together">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
