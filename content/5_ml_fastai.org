@@ -36,12 +36,12 @@ This course, suitable for people with no knowledge of machine learning, will wal
 {{<nolinktitle>}}Artificial neural networks{{</nolinktitle>}} \\
 {{<nolinktitle>}}How do neural networks learn?{{</nolinktitle>}}
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12–1:30 pm Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_pt_questions" text="Questions so far">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/09_pt_tensor" text="PyTorch tensors">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/10_pt_mnist" text="The MNIST">}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}Noon–1:30 pm Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12–1:30 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Questions so far{{</nolinktitle>}} \\
 {{<nolinktitle>}}PyTorch tensors{{</nolinktitle>}} \\
 {{<nolinktitle>}}The MNIST{{</nolinktitle>}}
