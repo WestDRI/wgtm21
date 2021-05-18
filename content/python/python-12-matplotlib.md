@@ -54,7 +54,7 @@ y = sin(1/x)
 ax = fig.add_subplot(121)   # on 1x2 layout create plot #1 (`axes` object with some data space)
 a1 = plt.plot(x, y, 'bo-', label='one')
 ax.set_ylim(-1.5, 1.5)
-/Users/razoumov/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/2/92721/nbody.jl/Users/razoumov/Library/Group Containers/3L68KQB4HG.group.com.readdle.smartemail/databases/messagesData/2/92721/nbody.jlplt.xlabel('x')
+plt.xlabel('x')
 plt.ylabel('f1')
 
 ax = fig.add_subplot(122)   # on 1x2 layout create plot #2
@@ -69,13 +69,16 @@ Instead of indices, we could specify the absolute coordinates of each plot with 
 1. replace the first `fig.add_subplot` with `ax = fig.add_axes([0.1, 0.7, 0.8, 0.3])   # left, bottom, width, height`
 1. replace the second `fig.add_subplot` with `ax = fig.add_axes([0.1, 0.2, 0.8, 0.4])   # left, bottom, width, height`
 
-The 3rd option is `plt.axes()` -- it creates an `axes` object (a region of the figure with some data space). These two
-lines are equivalent - both create a new figure with one subplot:
+The 3rd option for more fine-grained control is `plt.axes()` -- it creates an `axes` object (a region of the figure with
+some data space). These two lines are equivalent - both create a new figure with one subplot:
 
 ```py
 fig = plt.figure(figsize=(8,8)); ax = fig.add_subplot(111)
 fig = plt.figure(figsize=(8,8)); ax = plt.axes()
 ```
+
+Shortly we will see that we can pass additional flags to `fig.add_subplot()` and `plt.axes()` for more coordinate system
+control.
 
 **[Exercise](sol02.md):** break the plot into two subplots, the fist taking 1/3 of the space on the left, the second one
 2/3 of the space on the right.
@@ -182,6 +185,7 @@ You can now close the terminal panel. Let's switch back to our Python notebook a
 ```py
 %pwd       # simply run a bash command with a prefix
 %ls        # make sure you see data-python/
+```
 
 Let's plot tabulated topographic elevation data:
 
@@ -210,10 +214,9 @@ surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, 
 > **Exercise:** replace `fig, ax = plt.subplots()` with `fig = plt.figure()` followed by `ax = fig.add_subplot()`. Don't
 > forget about the `3d` projection.
 
-Let's replace the last two lines with (running this takes ~10s on my laptop):
+Let's replace the last line with the following (running this takes ~10s on my laptop):
 
 ```py
-ax.view_init(20, 30)
 surf = ax.plot_surface(x, y, z, facecolors=rgb, linewidth=0, antialiased=False, shade=False)
 for angle in range(90):
     print(angle)

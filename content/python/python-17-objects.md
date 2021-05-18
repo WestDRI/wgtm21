@@ -24,7 +24,7 @@ Let's define out first class:
 class Planet:
     # internally we store all numbers in cgs units
     hostObject = "Sun"     # class attribute (the same value for every class instance)
-    def __init__(self, radius, mass):   # sets the initial state of a newly created object
+    def __init__(self, radius, mass):   # "constructor" sets the initial state of a newly created object
         self.radius = radius*1e5   # instance attribute, convert km -> cm
         self.mass = mass*1.e3      # instance attribute, convert kg->g
 ```
