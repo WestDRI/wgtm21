@@ -12,19 +12,23 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/01_jl_intro" text="Introduction to the course & access to JupyterHub">}}
+
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/02_jl_why" text="Why another programming language?">}} \\
 {{<linkoptional url="https://westgrid-julia.netlify.app/2021_modules/03_jl_install" text="(Optional) Local installation">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/04_jl_doc" text="Documentation">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/05_jl_repl" text="The Julia REPL">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/06_jl_pkg" text="Packages">}}
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}10:30 am–12 pm Pacific Time{{</cgr>}} \\
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}10:30 am–12 pm PT{{</cgr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/07_jl_basics" text="Basics">}}\\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/08_jl_var_types" text="Variables & types">}}
+
 {{<cbr>}}On your own{{</cbr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/09_jl_collections" text="Collections">}}\\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/10_jl_functions" text="Functions">}}\\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/11_jl_control_flow" text="Control flow">}}
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4 pm Pacific Time{{</cgr>}} \\
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4 pm PT{{</cgr>}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/12_jl_macros" text="Macros">}} \\
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/13_jl_wrapup" text="Final questions">}}
