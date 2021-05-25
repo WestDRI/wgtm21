@@ -36,4 +36,5 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2:30 pm–4 pm PT{{</cgr>}}
 
 {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/12_jl_macros" text="Macros">}} \\
-{{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/13_jl_wrapup" text="Final questions">}}
+{{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/13_jl_performance" text="Performance">}}\\
+{{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/14_jl_wrapup" text="Final questions">}}
