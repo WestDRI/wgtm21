@@ -10,10 +10,6 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 
 *Prerequisites*: None.
 
-*Software*: All attendees will need a remote secure shell (SSH) client installed on their computer. On Windows we recommend [[https://mobaxterm.mobatek.net/download.html][the free Home Edition of MobaXterm]]. On Mac and Linux computers SSH is usually pre-installed (try typing ~ssh~ in a terminal to make sure it is there).
-
-{{<br>}}
-
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/01_jl_intro" text="Introduction to the course & cluster access">}}
 
