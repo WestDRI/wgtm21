@@ -1,4 +1,4 @@
-#+title: Scientific programming in Julia
+#+title: Basics of the Julia language
 #+slug: programming_julia
 
 {{<cor>}}Tuesday, May 25{{</cor>}} \\
