@@ -10,12 +10,7 @@ This course will introduce you to the basics of [[https://julialang.org/][Julia]
 
 *Prerequisites*: None.
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/01_jl_intro" text="Introduction to the course & cluster access">}}
-
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–9:30 am Pacific Time{{</cgr>}} \\
-{{<nolinktitle>}}Introduction to the course & cluster access{{</nolinktitle>}}
-
 # {{<cbr>}}On your own{{</cbr>}} \\
 # {{<linktitle url="https://westgrid-julia.netlify.app/2021_modules/02_jl_why" text="Why another programming language?">}} \\
 # {{<linkoptional url="https://westgrid-julia.netlify.app/2021_modules/03_jl_install" text="(Optional) Local installation">}} \\
