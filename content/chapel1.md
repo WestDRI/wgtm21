@@ -4,16 +4,16 @@ slug = "chapel1"
 +++
 
 1. instructor / helpers / course introduction
-1. distribute usernames (esp. to everyone from the waitlist) and passwords
+1. introduction to Chapel (download the [PDF slides](http://bit.ly/chapeltop))
+1. distribute usernames and passwords
 1. let's try to log in to the training cluster
-1. let's try loading single-locale Chapel
+1. let's try loading single-locale Chapel and compiling a simple code
+1. let's write a makefile for compiling Chapel codes
+1. let's submit a serial job script to run Chapel on a compute node
 
-### Live session: introduction to Chapel
+Start with the **Basic language features** page. Next go to **Task parallelism** and try to go as far as you can in that
+page before the mid-day session. I suggest skipping *"Parallelizing the heat transfer equation"* subsection at the end
+to save time.
 
-You can find the introductory PDF slides [here](http://bit.ly/chapeltop).
-
-**Task parallelism** will be split between morning and afternoon. Try to get as far as you can in the morning, and then
-resume after the mid-day Zoom session. In this chapter (task parallelism) I suggest skipping *"Parallelizing the heat
-transfer equation"* section at the end to save time, until then we cover the major concepts in task parallelism.
-
-Try to do all exercises in the lessons. The solutions are posted at the end of each page.
+Try to do all exercises in the lessons. The solutions are posted at the end of each page: please try not to look at them
+while working on the problems.

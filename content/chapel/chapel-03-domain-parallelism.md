@@ -73,7 +73,7 @@ jobs:
 ```
 
 ```sh
-$ source /project/60302/shared/startSingleLocale.sh     # on the training VM cluster (Cassiopeia)
+$ source ~/projects/def-sponsor00/shared/startSingleLocale.sh   # on cassiopeia.c3.ca
 $ chpl forall.chpl -o forall
 $ sbatch shared.sh
 $ cat solution.out
@@ -98,7 +98,7 @@ $ cat solution.out
 actual number of threads = 2
 ```
 
-> ## Exercise 1
+> ## Exercise 11
 > Using the first version of `forall.chpl` (where we computed the sum of integers 1..1000) as a template,
 > write a Chapel code to compute `pi` by calculating the integral (see slides) numerically through
 > summation using `forall` parallelism. Implement the number of intervals as `config` variable.
@@ -244,7 +244,7 @@ Let us test our multi-locale Chapel environment by launching the following code:
 writeln(Locales);
 ```
 ```sh
-$ source /project/60302/shared/startMultiLocale.sh     # on the training VM cluster (Cassiopeia)
+$ source ~/projects/def-sponsor00/shared/startMultiLocale.sh     # on cassiopeia.c3.ca
 $ chpl test.chpl -o test
 $ sbatch distributed.sh
 $ cat solution.out
@@ -569,7 +569,7 @@ $ cat solution.out
 actual number of threads = 12
 ```
 
-> ## Exercise 2
+> ## Exercise 12
 > Try reducing the array size `n` to see if that changes the output (fewer threads per locale), e.g.,
 > setting n=3. Also try increasing the array size to n=20 and study the output. Does the output make sense?
 
@@ -714,7 +714,7 @@ The outer perimeter in the partition below are the *ghost points*, with the inne
 2 2 2 2 2 3 3 3 3 3
 ```
 
-> ## Exercise 3
+> ## Exercise 13
 > In addition to here.id, also print the ID of the locale holding that value. Is it the same or different
 > from `here.id`?
 
@@ -739,7 +739,7 @@ with a parallel `forall` loop (**contains a mistake on purpose!**):
 	Tnew[i,j] = 0.25 * (T[i-1,j] + T[i+1,j] + T[i,j-1] + T[i,j+1]);
 ```
 
-> ## Exercise 4
+> ## Exercise 14
 > Can anyone spot a mistake in this loop?
 
 (7) Replace
@@ -923,12 +923,12 @@ writeln('The simulation took ', watch.elapsed(), ' seconds');
 
 This is the entire multi-locale, data-parallel, hybrid shared-/distributed-memory solver!
 
-> ## Exercise 5
+> ## Exercise 15
 > Add printout to the code to show the total energy on the inner mesh [1..row,1..cols] at each
 > iteration. Consider the temperature sum over all mesh points to be the total energy of the system. Is
 > the total energy on the mesh conserved?
 
-> ## Exercise 6
+> ## Exercise 16
 > Write a code to print how the finite-difference stencil [i,j], [i-1,j], [i+1,j], [i,j-1], [i,j+1] is
 > distributed among nodes, and compare that to the ID of the node where T[i,i] is computed. Use problem
 > size 8x8.
@@ -966,15 +966,18 @@ empty empty empty empty empty empty empty empty empty empty
 
 # I/O
 
-Let us write the final solution to disk. There are several caveats:
+Let us write the final solution to disk. Please note:
 
-* we'll write in ASCII
-* binary I/O did not work so well for me
-<!-- Chapel can also write binary data but nothing can read it (checked: not the endians problem!) -->
-* parallel NetCDF/HDF5/etc support is not implemented yet
+- here we'll write in ASCII (raw binary output is slightly more difficult to make portable) <!-- Chapel can also write
+  binary data but nothing can read it (checked: not the endians problem!) -->
+- a much better choice would be writing in NetCDF or HDF5 -- covered in our webinar
+["Working with data files and external C libraries in Chapel"](https://westgrid.github.io/trainingMaterials/programming#working-with-data-files-and-external-c-libraries-in-chapel)
+  - portable binary encoding (little vs. big endian byte order)
+  - compression
+  - random access
+  - parallel I/O (partially implemented) -- see the HDF5 example in the webinar
 
-Let's comment out all lines with `message` and `assert()`, and add the following at the end of our code
-to write ASCII:
+Let's comment out all lines with `message` and `assert()`, and add the following at the end of our code to write ASCII:
 
 ```chpl
 var myFile = open('output.dat', iomode.cw);   // open the file for writing
@@ -1002,80 +1005,4 @@ The file *output.dat* should contain the 8x8 temperature array after convergence
 
 # Solutions
 
->> ## Solution to Exercise 1
->> Change the line
->> ```chpl
->> for i in 1..n {
->> ```
->> to
->> ```chpl
->> forall i in 1..n with (+ reduce total) {
->> ```
-
->> ## Solution to Exercise 2: run the code with
->> ```sh
->> $ ./test -nl 4 --n=3
->> $ ./test -nl 4 --n=20
->> ```
->> For n=3 we get fewer threads (7 in my case), for n=20 we still get 12 threads (the maximum available
->> number of cores inside our job).
-
->> ## Solution to Exercise 3
->> Something along the lines:
->>   m = "%i".format(here.id) + '-' + m.locale.id;
->> In most cases `m.locale.id` should be the same as `here.id` (computation follows data distribution).
-
->> ## Answer to Exercise 4
->> It should be
->>   **forall (i,j) in largerMesh[1..rows,1..cols] do**   # run on multiple locales in parallel
->> instead of
->>   forall (i,j) in mesh do   # run in parallel on locale 0 only
->> Another possible solution is__
->>   forall (i,j) in Tnew.domain[1..rows,1..cols] do   # run on multiple locales in parallel
->> Also we cannot have
->>   forall (i,j) in largerMesh do   # will run in parallel on multiple locales
->> as it will overwrite the boundaries.
-
->> ## Solution to Exercise 5
->> Just before temperature output (if count%nout == 0), insert the following:
->> ```chpl
->>   var total = 0.0;
->>   forall (i,j) in largerMesh[1..rows,1..cols] with (+ reduce total) do
->>     total += T[i,j];
->> ```
->> and add total to the temperature output. It is decreasing as energy is leaving the system:
->> ```sh
->> $ chpl --fast parallel3.chpl -o parallel3
->> $ ./parallel3 -nl 1 --rows=30 --cols=30 --niter=2000   # run this from inside distributed.sh
->> Temperature at iteration 0: 25.0
->> Temperature at iteration 20: 3.49566   21496.5
->> Temperature at iteration 40: 2.96535   21052.6
->> ...
->> Temperature at iteration 1100: 2.5809   18609.5
->> Temperature at iteration 1120: 2.58087   18608.6
->> Temperature at iteration 1140: 2.58085   18607.7
->> Final temperature at the desired position [1,30] after 1148 iterations is: 2.58084
->> The largest temperature difference was 9.9534e-05
->> The simulation took 0.114942 seconds
->> ```
-
->> ## Solution to Exercise 6
->> Here is one possible solution examining the locality of the finite-difference stencil:
->> ```chpl
->> var message: [largerMesh] string = 'empty';
->> ```
->> and in the next line after computing Tnew[i,j] put
->> ```chpl
->>     message[i,j] = "%i".format(here.id) + message[i,j].locale.id + message[i-1,j].locale.id +
->>       message[i+1,j].locale.id + message[i,j-1].locale.id + message[i,j+1].locale.id + '  ';
->> ```
->> and before the end of the `while` loop
->> ```chpl
->>   writeln(message);
->>   assert(1>2);
->> ```
->> Then run it
->> ```sh
->> $ chpl --fast parallel3.chpl -o parallel3
->> $ ./parallel3 -nl 4 --rows=8 --cols=8   # run this from inside distributed.sh
->> ```
+You can find the solutions [here](../../solutions-chapel).

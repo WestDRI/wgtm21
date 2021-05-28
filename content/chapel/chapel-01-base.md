@@ -29,15 +29,21 @@ weight = 1
   original code, to bring it as close to the machine as required
 - has its source code stored in text files with the extension `.chpl`
 
-# Running Chapel codes on Cedar / Graham / Beluga
+# Running Chapel codes on Cedar / Graham / Béluga
 
-On Compute Canada clusters Cedar and Graham we have two versions of Chapel, one is a single-locale (single-node) Chapel,
+On Compute Canada clusters Cedar / Graham / Béluga we have two versions of Chapel, one is a single-locale (single-node) Chapel,
 and the other is a multi-locale (multi-node) Chapel. For now, we will start with single-locale Chapel. If you are logged
-into Cedar or Graham, you'll need to load the single-locale Chapel module:
+into Cedar or Graham or Béluga, you'll can either load the official (but slightly outdated) single-locale Chapel module:
 
 ```sh
 $ module spider chapel     # list all Chapel modules
 $ module load gcc chapel-single/1.15.0
+```
+
+or use the latest single-locale Chapel:
+
+```sh
+$ source /home/razoumov/startSingleLocale.sh
 ```
 
 # Running Chapel codes inside a Docker container
@@ -57,12 +63,12 @@ chpl test.chpl -o test
 ./test -nl 8
 ```
 
-# Running Chapel codes on the training cluster `cassiopeia.c3.ca`
+# Running Chapel codes on *cassiopeia.c3.ca* cluster
 
 If you are working on *cassiopeia.c3.ca* training cluster, please load Chapel from the shared project directory:
 
 ```sh
-$ source /project/60302/shared/startSingleLocale.sh
+$ source ~/projects/def-sponsor00/shared/startSingleLocale.sh
 ```
 
 Let's write a simple Chapel code, compile and run it:
@@ -531,102 +537,4 @@ The greatest difference in temperatures between the last two iterations was: 0.0
 
 # Solutions
 
->> ## Solution to Exercise 1
->> To see the evolution of the temperature at the top right corner of the plate, we just need to modify
->> `iout` and `jout`. This corner correspond to the first row (`iout=1`) and the last column (`jout=cols`) of the
->> plate.
->> ```sh
->> $ chpl baseSolver.chpl -o baseSolver
->> $ sbatch serial.sh
->> $ tail -f solution.out
->> ```
->> ```
->> Temperature at iteration 0: 25.0
->> Temperature at iteration 20: 1.48171
->> Temperature at iteration 40: 0.767179
->> ...
->> Temperature at iteration 460: 0.068973
->> Temperature at iteration 480: 0.0661081
->> Temperature at iteration 500: 0.0634717
->> ```
-
->> ## Solution to Exercise 2
->> To get the linear distribution, the 80 degrees must be divided by the number of rows or columns in our
->> plate. So, the following couple of for loops at the start of time iteration will give us what we want:
->> ```chpl
->> // boundary conditions
->> for i in 1..rows do
->>   T[i,cols+1] = i*80.0/rows;   // right side
->> for j in 1..cols do
->>   T[rows+1,j] = j*80.0/cols;   // bottom side
->> ```
->> Note that 80 degrees is written as a real
->> number 80.0. The division of integers in Chapel returns an integer, then, as `rows` and `cols` are
->> integers, we must have 80 as real so that the result is not truncated.
->> ```sh
->> $ chpl baseSolver.chpl -o baseSolver
->> $ sbatch serial.sh
->> $ tail -f solution.out
->> ```
->> ```
->> Temperature at iteration 0: 25.0
->> Temperature at iteration 20: 2.0859
->> Temperature at iteration 40: 1.42663
->> ...
->> Temperature at iteration 460: 0.826941
->> Temperature at iteration 480: 0.824959
->> Temperature at iteration 500: 0.823152
->> ```
-
->> ## Solution to Exercise 3
->> The idea is simple, after each iteration of the while loop, we must compare all elements of `Tnew` and
->> `T`, find the greatest difference, and update `delta` with that value. The next nested for
->> loops do the job:
->> ```chpl
->> // update delta, the greatest difference between Tnew and T
->> delta = 0;
->> for i in 1..rows do {
->>   for j in 1..cols do {
->>     tmp = abs(Tnew[i,j] - T[i,j]);
->>     if tmp > delta then delta = tmp;
->>   }
->> }
->> ```
->> Clearly there is no need to keep the difference at every single position in the array, we just need to
->> update `delta` if we find a greater one.
->> ```sh
->> $ chpl baseSolver.chpl -o baseSolver
->> $ sbatch serial.sh
->> $ tail -f solution.out
->> ```
->> ```
->> Temperature at iteration 0: 25.0
->> Temperature at iteration 20: 2.0859
->> Temperature at iteration 40: 1.42663
->> ...
->> Temperature at iteration 460: 0.826941
->> Temperature at iteration 480: 0.824959
->> Temperature at iteration 500: 0.823152
->> ```
-
->> ## Solution to Exercise 4
->> For example, lets use a 650 x 650 grid and observe the evolution of the temperature at the position (200,300) for 10000 iterations or until the difference of temperature between iterations is less than 0.002; also, let's print the temperature every 1000 iterations.
->> ```sh
->> $ chpl --fast baseSolver.chpl -o baseSolver
->> $ ./baseSolver --rows=650 --cols=650 --iout=200 --jout=300 --niter=10000 --tolerance=0.002 --nout=1000
->> ```
->> ```
->> Temperature at iteration 0: 25.0
->> Temperature at iteration 1000: 25.0
->> Temperature at iteration 2000: 25.0
->> Temperature at iteration 3000: 25.0
->> Temperature at iteration 4000: 24.9998
->> Temperature at iteration 5000: 24.9984
->> Temperature at iteration 6000: 24.9935
->> Temperature at iteration 7000: 24.9819
->> Final temperature at the desired position after 7750 iterations is: 24.9671
->> The greatest difference in temperatures between the last two iterations was: 0.00199985
->> ```
-
->> ## Solution to Exercise 5
->> Without `--fast` the calculation will become slower by ~95X.
+You can find the solutions [here](../../solutions-chapel).
