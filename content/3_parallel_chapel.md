@@ -33,7 +33,7 @@ computer.
 
 {{< figure src="/img/solveMulti.gif" >}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9am-9:45am Pacific{{</cgr>}} \
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-10:00am Pacific{{</cgr>}} \
 {{<linktitle url="../chapel1" text="Morning opening session">}}
 
 {{<cbr>}}On your own{{</cbr>}} \
@@ -42,7 +42,7 @@ computer.
 <!-- {{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \ -->
 <!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can) -->
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:30pm-2pm Pacific{{</cgr>}} \
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:00pm-2:00pm Pacific{{</cgr>}} \
 {{<linktitle url="../chapel2" text="Mid-day session">}}
 
 {{<cbr>}}On your own{{</cbr>}} \
