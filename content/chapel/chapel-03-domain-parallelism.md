@@ -98,6 +98,8 @@ $ cat solution.out
 actual number of threads = 2
 ```
 
+If you see one thread, try running this code as a batch multi-core job.
+
 > ## Exercise 11
 > Using the first version of `forall.chpl` (where we computed the sum of integers 1..1000) as a template,
 > write a Chapel code to compute `pi` by calculating the integral (see slides) numerically through
@@ -302,7 +304,7 @@ We can print few other attributes of each locale. Here it is actually useful to 
 `for` so that the print statements appear in order:
 
 ```chpl
-use Memory;
+use Memory.Diagnostics;
 for loc in Locales do
   on loc {
 	writeln("locale #", here.id, "...");
@@ -482,7 +484,7 @@ exactly the same pattern as the underlying domain. Let us print out
 Instead of printing these values to the screen, we will store this output inside each element of A as a string:
 a = int + string + int
 is a shortcut for
-a = "%i".format(int) + string + "%i".format(int)
+a = int:string + string + int:string
 
 ```
 use BlockDist; // use standard block distribution module to partition the domain into blocks
@@ -492,7 +494,7 @@ const distributedMesh: domain(2) dmapped Block(boundingBox=mesh) = mesh;
 var A: [distributedMesh] string; // block-distributed array mapped to locales
 forall a in A { // go in parallel through all n^2 elements in A
   // assign each array element on the locale that stores that index/element
-  a = a.locale.id:string + '-' + here.name[1..5] + '-' + here.maxTaskPar:string + '  ';
+  a = a.locale.id:string + '-' + here.name[0..4] + '-' + here.maxTaskPar:string + '  ';
 }
 writeln(A);
 ```
@@ -591,7 +593,7 @@ const mesh: domain(2) = {1..n, 1..n};  // a 2D domain defined in shared memory o
 const m2: domain(2) dmapped Cyclic(startIdx=mesh.low) = mesh; // mesh.low is the first index (1,1)
 var A2: [m2] string;
 forall a in A2 {
-  a = a.locale.id + '-' + here.name[1..5] + '-' + here.maxTaskPar + '  ';
+  a = a.locale.id:string + '-' + here.name[1..5]:string + '-' + here.maxTaskPar:string + '  ';
 }
 writeln(A2);
 ```
@@ -628,12 +630,12 @@ for loc in Locales do
 
 In addition to BlockDist and CyclicDist, Chapel has several other predefined distributions: BlockCycDist,
 ReplicatedDist, DimensionalDist2D, ReplicatedDim, BlockCycDim -- for details please see
-http://chapel.cray.com/docs/1.12/modules/distributions.html.
+https://chapel-lang.org/docs/primers/distributions.html.
 
 ## Heat transfer solver on distributed domains
 
 Now let us use distributed domains to write a parallel version of our original heat transfer solver
-code. We'll start by copying `baseSolver.chpl` into `parallel3.chpl` and making the following
+code. We'll start by copying `baseSolver.chpl` into `parallel.chpl` and making the following
 modifications to the latter:
 
 (1) Add
@@ -690,13 +692,13 @@ following to our code:
 ```chpl
 var message: [largerMesh] string;
 forall m in message do
-  m = "%i".format(here.id);   // store ID of the locale on which the code is running
+  m = here.id:string;   // store ID of the locale on which the code is running
 writeln(message);
 assert(1>2);    // will halt if the condition is false
 ```
 ```sh
-$ chpl -o parallel3 parallel3.chpl
-$ ./parallel3 -nl 4 --rows=8 --cols=8   # run this from inside distributed.sh
+$ chpl -o parallel parallel.chpl
+$ ./parallel -nl 4 --rows=8 --cols=8   # run this from inside distributed.sh
 ```
 
 The outer perimeter in the partition below are the *ghost points*, with the inner 8x8 array:
@@ -779,15 +781,16 @@ need `-nl` flag when running both):
 
 ```sh
 $ which chpl
-~/c3/chapel-1.19.0/bin/linux64-x86_64/chpl
+/project/60303/shared/c3/chapel-1.24.1/bin/linux64-x86_64/chpl
 $ chpl --fast baseSolver.chpl -o baseSolver
-$ chpl --fast parallel3.chpl -o parallel3
+$ chpl --fast parallel.chpl -o parallel
 ```
 
 First, let's try this on a smaller problem. Let's write two job submission scripts:
 
 ```sh
-#!/bin/bash     # this is baseSolver.sh
+#!/bin/bash
+# this is baseSolver.sh
 #SBATCH --time=00:05:00   # walltime in d-hh:mm or hh:mm:ss format
 #SBATCH --mem-per-cpu=1000   # in MB
 #SBATCH --output=baseSolver.out
@@ -795,20 +798,21 @@ First, let's try this on a smaller problem. Let's write two job submission scrip
 ```
 
 ```sh
-#!/bin/bash     # this is parallel3.sh
+#!/bin/bash
+# this is parallel.sh
 #SBATCH --time=00:05:00   # walltime in d-hh:mm or hh:mm:ss format
 #SBATCH --mem-per-cpu=1000   # in MB
 #SBATCH --nodes=4
 #SBATCH --cpus-per-task=2
-#SBATCH --output=parallel3.out
-./parallel3 -nl 4 --rows=30 --cols=30 --niter=2000
+#SBATCH --output=parallel.out
+./parallel -nl 4 --rows=30 --cols=30 --niter=2000
 ```
 
 Let's run them both:
 
 ```sh
 sbatch baseSolver.sh
-sbatch parallel3.sh
+sbatch parallel.sh
 ```
 
 Wait for the jobs to finish and then check the results:
@@ -819,7 +823,7 @@ Final temperature at the desired position [1,30] after 1148 iterations is: 2.580
 The largest temperature difference was 9.9534e-05
 The simulation took 0.008524 seconds
 
-$ tail -3 parallel3.out
+$ tail -3 parallel.out
 Final temperature at the desired position [1,30] after 1148 iterations is: 2.58084
 The largest temperature difference was 9.9534e-05
 The simulation took 193.279 seconds
@@ -861,7 +865,7 @@ The largest temperature difference was 0.00199975
 | | 30^2 | 650^2 | 2,000^2 |
 | ----- | ----- | ----- | ----- |
 | baseSolver | 0.00852s | 59s | 745s |
-| parallel3 --nodes=4 --cpus-per-task=2 | 193s | 2,208s | 5,876s |
+| parallel --nodes=4 --cpus-per-task=2 | 193s | 2,208s | 5,876s |
 | slowdown | ~22,700 | ~38 | ~8 |
 
 #### On Graham (faster interconnect):
@@ -869,12 +873,12 @@ The largest temperature difference was 0.00199975
 | | 30^2 | 650^2 | 2,000^2 | 8,000^2 |
 | ----- | ----- | ----- | ----- | ----- |
 | baseSolver | 0.0203s | 56s | 565s | 11,140s |
-| parallel3 --nodes=4 --cpus-per-task=2 | 105s | 802s | 1,627s | 13,975s |
+| parallel --nodes=4 --cpus-per-task=2 | 105s | 802s | 1,627s | 13,975s |
 | slowdown | ~5,170 | ~14 | ~2.9 | ~1.25 |
-| parallel3 --nodes=4 --cpus-per-task=4 | | | | 7,157s |
-| parallel3 --nodes=8 --cpus-per-task=4 | | | | 4,096s |
+| parallel --nodes=4 --cpus-per-task=4 | | | | 7,157s |
+| parallel --nodes=8 --cpus-per-task=4 | | | | 4,096s |
 
-<!-- 16,000^2 on Graham: baseSolver 41,482s; parallel3 --nodes=4 --cpus-per-task=2 61,052s -->
+<!-- 16,000^2 on Graham: baseSolver 41,482s; parallel --nodes=4 --cpus-per-task=2 61,052s -->
 
 <!-- on Cedar at 650^2 we have ~60X slowdown: 27.5408 seconds and 1658.34 seconds, respectively (bad Chapel build over OmniPath?) -->
 
@@ -980,14 +984,15 @@ Let us write the final solution to disk. Please note:
 Let's comment out all lines with `message` and `assert()`, and add the following at the end of our code to write ASCII:
 
 ```chpl
+use IO;
 var myFile = open('output.dat', iomode.cw);   // open the file for writing
 var myWritingChannel = myFile.writer();   // create a writing channel starting at file offset 0
 myWritingChannel.write(T);   // write the array
 myWritingChannel.close();   // close the channel
 ```
 ```sh
-$ chpl --fast parallel3.chpl -o parallel3
-$ ./parallel3 -nl 4 --rows=8 --cols=8   # run this from inside distributed.sh
+$ chpl --fast parallel.chpl -o parallel
+$ ./parallel -nl 4 --rows=8 --cols=8   # run this from inside distributed.sh
 $ ls -l *dat
 -rw-rw-r-- 1 razoumov razoumov 659 Mar  9 18:04 output.dat
 ```

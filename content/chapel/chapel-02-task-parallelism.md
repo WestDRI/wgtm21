@@ -84,7 +84,7 @@ scenario.
 <!-- $ echo $SLURM_CPUS_PER_TASK     # print the number of cores per node (3) -->
 <!-- ``` -->
 
-If working on Cedar, please either load the official single-locale Chapel module:
+If working on Cedar / Graham / Béluga, please either load the official single-locale Chapel module:
 
 ```sh
 $ module load gcc chapel-single/1.15.0
@@ -225,21 +225,21 @@ This is thread 1, my value of x is 5
 This message will not appear until all threads are done...
 ```
 
-As you may have conclude from the Discussion exercise above, the variables declared inside a thread are
-accessible only by the thread, while those variables declared in the main thread are accessible to all threads.
+As you may have concluded from the Discussion exercise above, the variables declared inside a thread are accessible only
+by the thread, while those variables declared in the main thread are accessible to all threads.
 
-Another, and one of the most useful ways to start concurrent/parallel threads in Chapel, is the `coforall`
-loop. This is a combination of the for-loop and the `cobegin`statements. The general syntax is:
+Another, and one of the most useful ways to start concurrent/parallel threads in Chapel, is the `coforall` loop. This is
+a combination of the for-loop and the `cobegin`statements. The general syntax is:
 
 ```chpl
 coforall index in iterand
 {instructions}
 ```
 
-This will start **a new thread for each iteration**. Each thread will then perform all the instructions
-inside the curly brackets. Each thread will have a copy of the loop variable **_index_** with the
-corresponding value yielded by the iterand. This index allows us to _customize_ the set of instructions
-for each particular thread. Let's write `coforall.chpl`:
+This will start **a new thread for each iteration**. Each thread will then perform all the instructions inside the curly
+brackets. Each thread will have a copy of the loop variable **_index_** with the corresponding value yielded by the
+iterand. This index allows us to _customize_ the set of instructions for each particular thread. Let's write
+`coforall.chpl`:
 
 ```chpl
 var x = 10;
@@ -293,11 +293,11 @@ only to the particular thread.
 >
 > writeln('the maximum value in x is: ', gmax);
 > ```
-> Write a parallel code to find the maximum value in the array x. Be careful: the number of threads
+> Write a parallel code to find the maximum value in the array `x`. Be careful: the number of threads
 > should not be excessive. Best to use `numthreads` to organize parallel loops.
 
 > ## Discussion
-> Run the code of last Exercise using different number of threads, and different sizes of the array _x_ to
+> Run the code of last Exercise using different number of threads, and different sizes of the array `x` to
 > see how the execution time changes. For example:
 > ```sh
 > $ time ./exercise7 --m=8 --numthreads=1
@@ -427,11 +427,11 @@ writeln('this is the main thread launching a new thread');
 begin {
   for i in 1..10 do
 	writeln('this is the new thread working: ', i);
-  x = 2;
+	x.writeEF(2);   // write the value, state changes from Empty to Full
   writeln('New thread finished');
 }
 writeln('this is the main thread after launching new thread ... I will wait until x is full');
-x;   // not doing anything with a variable, not printing, just calling it
+x.readFE();   // read the value, state changes from Full to Empty
 writeln('and now it is done');
 ```
 ```sh
@@ -459,35 +459,33 @@ and now it is done
 
 Here the main thread does not continue until the variable is full and can be read.
 
-* Let's replace `x;` with `var a = x; writeln(a);` -- now it prints the value! As you can see, you can't
-  write a sync variable (current limitation).
-* Let's add another line `x;` -- now it is stuck since we cannot read 'x' while it's empty!
-* Let's add `x.writeXF(5);` right before the last `x;` -- now we set is to full again (and assigned 5),
+* Let's add another line `x.readFE();` -- now it is stuck since we cannot read `x` while it's empty!
+* Let's add `x.writeEF(5);` right before the last `x.readFE();` -- now we set is to full again (and assigned 5),
   and it can be read again.
 
 There are a number of methods defined for _sync_ variables. Suppose _x_ is a sync variable of a given type:
 
 ```chpl
 // general methods
-x.reset()   //will set the state as empty and the value as the default of x's type
-x.isfull()  //will return true is the state of x is full, false if it is empty
+x.reset() - set the state as empty and the value as the default of x's type
+x.isfull() - return true is the state of x is full, false if it is empty
 
 // blocking read and write methods
-x.writeEF(value)   // will block until the state of x is empty,
-				   // then will assign the value and set the state to full
-x.writeFF(value)       // will block until the state of x is full,
-					   // then will assign the value and leave the state as full
-x.readFE()      // will block until the state of x is full,
-				// then will return x's value and set the state to empty
-x.readFF()           // will block until the state of x is full,
-					 // then will return x's value and leave the state as full
+x.writeEF(value) - block until the state of x is empty, then assign the value and
+                   set the state to full
+x.writeFF(value) - block until the state of x is full, then assign the value and
+                   leave the state as full
+x.readFE() - block until the state of x is full, then return x's value and set
+             the state to empty
+x.readFF() - block until the state of x is full, then return x's value and
+             leave the state as full
 
 // non-blocking read and write methods
-x.writeXF(value)   // will assign the value no matter the state of x, and then set the state as full
-x.readXX()         // will return the value of x regardless its state; the state will remain unchanged
+x.writeXF(value) - assign the value no matter the state of x, then set the state as full
+x.readXX() - return the value of x regardless its state; the state will remain unchanged
 ```
 
-### atomic variables
+### Atomic variables
 
 Chapel also implements **_atomic_** operations with variables declared as `atomic`, and this provides
 another option to synchronize threads. Atomic operations run *completely independently of any other thread

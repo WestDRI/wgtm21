@@ -36,20 +36,22 @@ computer.
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-10:00am Pacific{{</cgr>}} \
 {{<linktitle url="../chapel1" text="Morning opening session">}}
 
+<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
+<!-- {{<nolinktitle>}}Basic language features{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Task parallelism{{</nolinktitle>}} -->
+
 {{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Basic language features{{</nolinktitle>}} \
-{{<nolinktitle>}}Task parallelism{{</nolinktitle>}}
-<!-- {{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \ -->
-<!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can) -->
+{{<linktitle url="../chapel/chapel-01-base" text="Basic language features">}} \
+{{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism">}} &nbsp; (try to get here as far as you can)
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}12:00pm-2:00pm Pacific{{</cgr>}} \
 {{<linktitle url="../chapel2" text="Mid-day session">}}
 
-{{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Task parallelism (cont.){{</nolinktitle>}} \
-{{<nolinktitle>}}Data parallelism{{</nolinktitle>}}
-<!-- {{<linktitle url="../chapel/chapel-02-task-parallelism" text="Task parallelism (cont.)">}} &nbsp; (continue where you left off) \ -->
-<!-- {{<linktitle url="../chapel/chapel-03-domain-parallelism" text="Data parallelism">}} -->
+<!-- {{<cbr>}}On your own{{</cbr>}} \ -->
+<!-- {{<nolinktitle>}}Data parallelism{{</nolinktitle>}} -->
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:30pm-5pm Pacific{{</cgr>}} \
+{{<cbr>}}On your own{{</cbr>}} \
+{{<linktitle url="../chapel/chapel-03-domain-parallelism" text="Data parallelism">}}
+
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:30pm-5:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}}

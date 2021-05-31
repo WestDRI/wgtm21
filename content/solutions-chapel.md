@@ -258,7 +258,7 @@ inside our job).
 
 ### Solution to Exercise 13
 
-Something along the lines of `m = here.id:string + '-' + m.locale.id;` should work.
+Something along the lines of `m = here.id:string + '-' + m.locale.id:string;` should work.
 
 In most cases `m.locale.id` should be the same as `here.id` (computation follows data distribution).
 
