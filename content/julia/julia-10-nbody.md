@@ -116,7 +116,7 @@ With default 20 particles and $10^5$ steps the code runs slower in parallel on C
 | `julia nbodySerial.jl` (serial runtime) | 340s |
 | `julia -p 1 nbodyDistributedShared.jl` (2 processes) | 358s |
 
-This the same problem we descussed in the Chapel course: with a fine-grained parallel code the communication overhead
+This is the same problem we discussed in the Chapel course: with a fine-grained parallel code the communication overhead
 dominates the problem. As we increase the problem size, we should see the benefit from parallelization. E.g. with 1000
 particles and 10 steps:
 
