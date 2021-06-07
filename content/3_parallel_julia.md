@@ -34,7 +34,20 @@ usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 computer.
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00am Pacific{{</cgr>}} \
-{{<nolinktitle>}}Morning live session{{</nolinktitle>}}
+{{<linktitle url="../julia/julia-01-intro" text="Introduction to parallel Julia">}} \
+{{<linktitle url="../julia/julia-02-threads1" text="Base.Threads (part 1)">}} \
+{{<linktitle url="../julia/julia-03-slow-series" text="Slow series">}} \
+{{<linktitle url="../julia/julia-04-threads2" text="Base.Threads (part 2)">}} \
+{{<linktitle url="../julia/julia-05-distributed1" text="Distributed.jl (part 1)">}} \
+{{<linktitle url="../julia/julia-06-distributed2" text="Distributed.jl (part 2)">}}
+
+In the afternoon Zoom session you'll be working on one of two projects: parallelizing Julia set (I recommend to do this
+with distributed arrays) and parallelizing the N-body code (I recommend to do this with shared arrays). **Note:** we
+will guide you through the process and answer questions, but we will not share the final solutions with you today; the
+goal is to build your own!
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}1:00pm-4:00pm Pacific{{</cgr>}} \
-{{<nolinktitle>}}Afternoon live session{{</nolinktitle>}}
+{{<linktitle url="../julia/julia-07-distributed-arrays" text="DistributedArrays.jl">}} \
+{{<linktitle url="../julia/julia-08-julia-set" text="Parallelizing Julia set">}} \
+{{<linktitle url="../julia/julia-09-shared-arrays" text="SharedArrays.jl">}} \
+{{<linktitle url="../julia/julia-10-nbody" text="Parallelizing N-body">}}

@@ -254,13 +254,16 @@ end
 Now we can actually use it:
 
 ```julia
+slow(Int64(10), 9, 1, 2)   # precompile the code
 a = @spawnat :any slow(Int64(1e9), 9, 1, 2)
 b = @spawnat :any slow(Int64(1e9), 9, 2, 2)
-print("total = ", fetch(a) + fetch(b))   # 14.241913010372754, simultaneous 11.57s+12.90s
+print("total = ", fetch(a) + fetch(b))   # 14.241913010372754
 ```
 
 For timing I got 16.42s+19.44s, which is a 2X speedup compared to the serial run -- this is great result! Notice that we
-received a slightly different numerical result, due to a different order of summation. However, we have a problem: our
-code is **not scalable**: it's only limited to a small number of sums each spawned with its own Future reference.
+received a slightly different numerical result, due to a different order of summation.
 
-How do we solve this problem -- any ideas, before I show the solution in the next section?
+However, our code is **not scalable**: it's only limited to a small number of sums each spawned with its own Future
+reference. If we want to scale it to 100 workers, we'll have a problem.
+
+How do we solve this problem -- any ideas before I show the solution in the next section?
