@@ -1,6 +1,6 @@
 +++
 title = "Parallelizing N-body"
-slug = "julia-09-nbody"
-weight = 9
+slug = "julia-10-nbody"
+weight = 10
 +++
 

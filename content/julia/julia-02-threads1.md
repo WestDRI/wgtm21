@@ -3,7 +3,6 @@ title = "Multi-threading - part 1"
 slug = "julia-02-threads1"
 weight = 2
 katex = true
-markup = "mmark"
 +++
 
 Let's start Julia by typing `julia` in bash:
@@ -86,145 +85,86 @@ end
 
 On Cassiopeia I get 6.57s, 6.19s, 6.10s -- this is ~2X speedup, as expected.
 
-### Let's add reduction: summation $$~~\sum_{i=1}^{10^6}i~~$$ via threads
+### Let's add reduction
 
-
-
-
-```julia
-```
+We will compute the sum $~~\sum_{i=1}^{10^6}i~~$ with multiple threads. Consider this code:
 
 ```julia
+total = 0
+@threads for i = 1:Int(1e6)
+    global total += i          # use `total` from global scope
+end
+println("total = ", total)
 ```
 
-```julia
-```
+This code is not thread-safe:
+
+- race condition: multiple threads updating the same variable at the same time
+- a new result every time
+- unfortunately, `@threads` does not have built-in reduction support
+
+Let's make it thread-safe (one of many possible solutions) using an **atomic variable** `total`. Only one thread can
+update an atomic variable at a time; all other threads have to wait for this variable to be released before they can
+write into it.
 
 ```julia
+total = Atomic{Int64}(0)
+@threads for i in 1:Int(1e6)
+    atomic_add!(total, i)
+end
+println("total = ", total[])   # need to use [] to access atomic variable's value
 ```
 
-```julia
-```
+Now every time we get the same result. This code is supposed to be much slower: threads are waiting for others to finish
+updating the variable, so with 4 threads and one variable there should be a lot of waiting ... Atomic variables were not
+really designed for this type of usage ... Let's do some benchmarking!
+
+### Benchmarking in Julia
+
+We already know that we can use `@time` macro for timing our code. Let's do summation of integers from 1 to
+`Int64(1e8)` using a serial code:
 
 ```julia
+n = Int64(1e8)
+total = Int128(0)   # 128-bit for the result!
+@time for i in 1:n
+	total += i
+end
+println("total = ", total)
 ```
 
-```julia
-```
+In Cassiopeia I get 10.87s, 10.36s, 11.07s. Here `@time` also includes JIT compilation time (marginal here).
+
+Next we'll package this code into a function:
 
 ```julia
+function quick(n)
+    total = Int128(0)   # 128-bit for the result!
+    @time for i in 1:n
+        total += i
+    end
+    return(total)
+end
 ```
 
-```julia
-```
+The first time you run a function, Julia will compile it, but the 2nd time it'll use the already-compiled machine
+code. Let's use this function:
 
 ```julia
+quick(10)     # first time Julia will compile the function; reports 0.000000 seconds
+println("total = ", quick(Int64(1e8)))    # correct result, 0.000000s runtime
+println("total = ", quick(Int64(1e9)))    # correct result, 0.000000s runtime
+println("total = ", quick(Int64(1e15)))   # correct result, 0.000000s runtime
 ```
 
-```julia
-```
+In all these cases we see $0\mu$s running time -- this can't be correct! What is going on here? It turns out that Julia
+is replacing the summation with the exact formula $n(n+1)/2$!
 
-```julia
-```
+We want to:
+1. enforce computation $~\Rightarrow~$ we'll compute something more complex than simple integer summation (that can be
+   replaced with a formula)
+1. exclude compilation time $~\Rightarrow~$ we'll package the code into a function + precompile it
+1. make use of optimizations for type stability $~\Rightarrow~$ package into a function + precompile it
+1. time only the CPU-intensive loops
 
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
-
-```julia
-```
+> **Note:** for shorter runs (ms) you may want to use `@btime` from BenchmarkTools.
