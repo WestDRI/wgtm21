@@ -109,7 +109,7 @@ besides the force in that loop? For code syntax, check `parallelFor.jl` code in
 
 ### Results
 
-With default 20 particles and $10^5$ steps the code runs slower in parallel on Cassiopeia:
+With default **20 particles and $10^5$ steps** the code runs slower in parallel on Cassiopeia:
 
 | Code | Time  |
 | ------------- | ----- |
@@ -117,15 +117,15 @@ With default 20 particles and $10^5$ steps the code runs slower in parallel on C
 | `julia -p 1 nbodyDistributedShared.jl` (2 processes) | 358s |
 
 This is the same problem we discussed in the Chapel course: with a fine-grained parallel code the communication overhead
-dominates the problem. As we increase the problem size, we should see the benefit from parallelization. E.g. with 1000
-particles and 10 steps:
+dominates the problem. As we increase the problem size, we should see the benefit from parallelization. E.g. with **1000
+particles and 10 steps**:
 
 | Code | Time  |
 | ------------- | ----- |
 | `julia nbodySerial.jl` (serial runtime) | 83.7s |
 | `julia -p 1 nbodyDistributedShared.jl` (2 processes) | 47.9s |
 
-Here is what I got on Cedar with 100 particles and $10^3$ steps:
+Here is what I got on Cedar with **100 particles and $10^3$ steps**:
 
 | Run | Time  |
 | ------------- | ----- |
