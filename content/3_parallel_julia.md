@@ -33,7 +33,7 @@ participate in the course exercises. On Windows we recommend
 usually pre-installed (try typing `ssh` in a terminal to make sure it is there). No need to install Julia on your
 computer.
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00am Pacific{{</cgr>}} \
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00pm Pacific{{</cgr>}} \
 {{<linktitle url="../julia/julia-01-intro" text="Introduction to parallel Julia">}} \
 {{<linktitle url="../julia/julia-02-threads1" text="Base.Threads (part 1)">}} \
 {{<linktitle url="../julia/julia-03-slow-series" text="Slow series">}} \
