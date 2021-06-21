@@ -1,5 +1,5 @@
 +++
-title = "Introduction to the cloud"
+title = "Introduction to Compute Canada cloud"
 slug = "cloud_cloud"
 +++
 
