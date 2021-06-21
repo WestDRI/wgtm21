@@ -24,3 +24,5 @@ computers SSH is usually pre-installed (try typing `ssh` in a terminal to make s
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Live session in 30-40 min presentation blocks{{</nolinktitle>}}
+
+<!-- last year https://wgschool.netlify.app/docker -->

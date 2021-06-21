@@ -23,10 +23,26 @@ slug = "cloud_cloud"
 
 **Prerequisites**: basic knowledge of Linux command line
 
-**Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in
-order to participate in the course exercises. On Windows we recommend
-[the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux
-computers SSH is usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
+**Software**: All attendees will need a remote secure shell (SSH) client installed on their computer in order to
+participate in the course exercises. On Windows we recommend
+[the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is
+usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
+
+You can download the workshop slides [here](../../slides/ccCloud21.pdf).
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Live session in 30-40 min presentation blocks{{</nolinktitle>}}
+
+<!-- last year https://wgschool.netlify.app/cloud -->
+
+#### Creating and Connecting to an instance on Arbutus (MacOS)
+
+{{< yt -bDE_f--SN8 63 >}}
+
+#### Creating and Connecting to an instance on Arbutus (Windows and MobaXterm)
+
+{{< yt 3Yia9_464yY 63 >}}
+
+#### Installing RStudio
+
+{{< yt hMkCT0mcb6s 63 >}}
