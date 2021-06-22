@@ -28,7 +28,7 @@ participate in the course exercises. On Windows we recommend
 [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is
 usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 
-You can download the workshop slides [here](../../slides/ccCloud21.pdf).
+You can download the workshop slides [here](../../slides/cloud.pdf).
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-12:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Live session in 30-40 min presentation blocks{{</nolinktitle>}}

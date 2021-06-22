@@ -22,10 +22,8 @@ order to participate in the course exercises. On Windows we recommend
 [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux
 computers SSH is usually pre-installed (try typing `ssh` in a terminal to make sure it is there).
 
-You can download the workshop slides [here](../../slides/dockerInVMs.pdf).
-
 Materials to download:
-* [PDF slides](../../slides/dockerInVMs.pdf)
+* [PDF slides](../../slides/docker.pdf)
 * [raw text document](/other/dockerCommands.txt) with all commands
 * Gnuplot [example script](/other/pm3d_lighting.2.gnu)
 
