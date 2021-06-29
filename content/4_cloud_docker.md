@@ -135,7 +135,7 @@ sudo docker build -t gnuplot_centos .
 rm ~/input/pm3d_lighting.2.png
 sudo docker run --name DockerGNUPlot -v ~/input:/workdir gnuplot_centos pm3d_lighting.2.gnu
 ls ~/input
-sudo docker image save -o gnuplotCentosDemo.tar gnuplotcentos
+sudo docker image save -o gnuplotCentosDemo.tar gnuplot_centos
 sudo docker image import gnuplotCentosDemo.tar importedgnuplot
 sudo docker image list
 ```
