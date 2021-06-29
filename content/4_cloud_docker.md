@@ -95,7 +95,7 @@ mkdir ~/input
 sudo docker run -it --name gnuPlotExample -v ~/input:/workdir centos
 yum install gnuplot
 cd /workdir
-wget https://wgschool.netlify.app/docker/pm3d_lighting.2.gnu
+wget https://wgtm21.netlify.app/other/pm3d_lighting.2.gnu
 gnuplot /workdir/pm3d_lighting.2.gnu
 exit
 ```
