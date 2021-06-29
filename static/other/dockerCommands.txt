@@ -81,6 +81,3 @@ sudo docker image save -o gnuplotCentosDemo.tar gnuplotcentos
 sudo docker image import gnuplotCentosDemo.tar importedgnuplot
 
 sudo docker image list
-
-
-
