@@ -12,7 +12,7 @@ slug = "cloud_docker"
 
 **Level**: beginner
 
-**Prerequisites**: [Introduction to Compute Canada cloud](../cloud) course
+**Prerequisites**: [Introduction to Compute Canada cloud](../cloud_cloud) course
 
 We will be running Docker inside virtual machines (VMs) in Compute Canada cloud, so you must be familiar
 with setting up a blank Ubuntu server in a cloud VM before attending this course.
@@ -37,13 +37,13 @@ Materials to download:
 
 {{< yt ikuqAPT3F44 63 >}}
 
-In this exercise we will install docker on our VM and run the test Hello World docker. Before continuing
-with this exercise please be sure you have an Ubuntu (or CentOS) VM set up that you are able to log
-into. For details on setting up a VM with your guest account, check [these PDF slides](../ccCloud.pdf)
-from yesterday's CC Cloud course or the videos [therein](../cloud).
+In this exercise we will install docker on our VM and run the test Hello World docker. Before continuing with this
+exercise please be sure you have an Ubuntu (or CentOS) VM set up that you are able to log into. For details on setting
+up a VM with your guest account, check [these PDF slides](../../slides/cloud.pdf) from last week's CC Cloud course or
+the videos [therein](../cloud_cloud).
 
-Once you are logged into your VM, and you are using Ubuntu, please follow along with the video and
-execute the following commands (one command at a time!):
+Once you are logged into your VM, and you are using Ubuntu, please follow along with the video and execute the following
+commands (one command at a time!):
 
 ```
 sudo apt-get update
