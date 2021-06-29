@@ -93,7 +93,7 @@ time!):
 ```
 mkdir ~/input
 sudo docker run -it --name gnuPlotExample -v ~/input:/workdir centos
-yum install gnuplot
+yum install gnuplot wget
 cd /workdir
 wget https://wgtm21.netlify.app/other/pm3d_lighting.2.gnu
 gnuplot /workdir/pm3d_lighting.2.gnu
