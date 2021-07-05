@@ -14,16 +14,16 @@ This course, suitable for people with no knowledge of machine learning, will wal
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–10 am Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/01_intro" text="Opening session & Jupyter access">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/02_ml" text="AI, machine learning, and deep learning">}}
+# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/02_ml" text="AI, machine learning, deep learning">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/03_nn" text="What are neural networks and how do they learn?">}}
+# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/03_nn" text="What are neural networks & how do they learn?">}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30–12:30 pm Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/04_architectures" text="Network architectures & practical considerations">}}
 
 # {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/05_framework" text="Which framework to choose?">}} \\
+# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/05_frameworks" text="Which framework to choose?">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/06_pytorch" text="PyTorch">}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}1:30–4:40 pm Pacific Time{{</cgr>}} \\
@@ -31,20 +31,20 @@ This course, suitable for people with no knowledge of machine learning, will wal
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_jupyter" text="Jupyter tips">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/09_upscaling" text="Implementation: upscaling images">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/10_ethics" text="Ethical considerations">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/11_resources" text="Wrap-up and resources">}}
+# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/11_resources" text="Wrap-up & resources">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–10 am Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Opening session & Jupyter access{{</nolinktitle>}} \\
-{{<nolinktitle>}}AI, machine learning, and deep learning{{</nolinktitle>}}
+{{<nolinktitle>}}AI, machine learning, deep learning{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<nolinktitle>}}What are neural networks and how do they learn?{{</nolinktitle>}}
+{{<nolinktitle>}}What are neural networks & how do they learn?{{</nolinktitle>}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30–12:30 pm Pacific Time{{</cgr>}} \\
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30 am–12:30 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}Network architectures & practical considerations{{</nolinktitle>}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<nolinktitle>}}Which framework to choose?{{</nolinktitle>}} \\
+{{<nolinktitle>}}Which frameworks to choose?{{</nolinktitle>}} \\
 {{<nolinktitle>}}PyTorch{{</nolinktitle>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}1:30–4:40 pm Pacific Time{{</cgr>}} \\
@@ -52,4 +52,4 @@ This course, suitable for people with no knowledge of machine learning, will wal
 {{<nolinktitle>}}Jupyter tips{{</nolinktitle>}} \\
 {{<nolinktitle>}}Implementation: upscaling images{{</nolinktitle>}} \\
 {{<nolinktitle>}}Ethical considerations{{</nolinktitle>}} \\
-{{<nolinktitle>}}Wrap-up and resources{{</nolinktitle>}}
+{{<nolinktitle>}}Wrap-up & resources{{</nolinktitle>}}
