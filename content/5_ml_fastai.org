@@ -12,48 +12,48 @@ This course, suitable for people with no knowledge of machine learning, will wal
 
 {{<br>}}
 
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–10 am Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/01_intro" text="Opening session & Jupyter access">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/02_ml" text="AI, machine learning, deep learning">}}
-
-# {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/03_nn" text="What are neural networks & how do they learn?">}}
-
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30–12:30 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/04_architectures" text="Network architectures & practical considerations">}}
-
-# {{<cbr>}}On your own{{</cbr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/05_tl" text="Transfer learning">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/06_transformer" text="The Transformer">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/07_frameworks" text="Which framework to choose?">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_tensors" text="PyTorch tensors">}}
-
-# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/09_fastai" text="fastai">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/10_jupyter" text="Jupyter tips">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/11_upscaling" text="Implementation: upscaling images">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/12_ethics" text="Ethical considerations">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/13_resources" text="Wrap-up & resources">}}
-
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–10 am Pacific Time{{</cgr>}} \\
-{{<nolinktitle>}}Opening session & Jupyter access{{</nolinktitle>}} \\
-{{<nolinktitle>}}AI, machine learning, deep learning{{</nolinktitle>}}
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/01_intro" text="Opening session & Jupyter access">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/02_ml" text="AI, machine learning, deep learning">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<nolinktitle>}}What are neural networks & how do they learn?{{</nolinktitle>}}
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/03_nn" text="What are neural networks & how do they learn?">}}
 
-{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30 am–12:30 pm Pacific Time{{</cgr>}} \\
-{{<nolinktitle>}}Network architectures & practical considerations{{</nolinktitle>}}
+{{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30–12:30 pm Pacific Time{{</cgr>}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/04_architectures" text="Network architectures & practical considerations">}}
 
 {{<cbr>}}On your own{{</cbr>}} \\
-{{<nolinktitle>}}Transfer learning{{</nolinktitle>}} \\
-{{<nolinktitle>}}The Transformer{{</nolinktitle>}} \\
-{{<nolinktitle>}}Which frameworks to choose?{{</nolinktitle>}} \\
-{{<nolinktitle>}}PyTorch tensors{{</nolinktitle>}}
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/05_tl" text="Transfer learning">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/06_transformer" text="The Transformer">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/07_frameworks" text="Which framework to choose?">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_tensors" text="PyTorch tensors">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
-{{<nolinktitle>}}fastai{{</nolinktitle>}} \\
-{{<nolinktitle>}}Jupyter tips{{</nolinktitle>}} \\
-{{<nolinktitle>}}Implementation: upscaling images{{</nolinktitle>}} \\
-{{<nolinktitle>}}Ethical considerations{{</nolinktitle>}} \\
-{{<nolinktitle>}}Wrap-up & resources{{</nolinktitle>}}
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/09_fastai" text="fastai">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/10_jupyter" text="Jupyter tips">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/11_upscaling" text="Implementation: upscaling images">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/12_ethics" text="Ethical considerations">}} \\
+{{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/13_resources" text="Wrap-up & resources">}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9–10 am Pacific Time{{</cgr>}} \\
+# {{<nolinktitle>}}Opening session & Jupyter access{{</nolinktitle>}} \\
+# {{<nolinktitle>}}AI, machine learning, deep learning{{</nolinktitle>}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<nolinktitle>}}What are neural networks & how do they learn?{{</nolinktitle>}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30 am–12:30 pm Pacific Time{{</cgr>}} \\
+# {{<nolinktitle>}}Network architectures & practical considerations{{</nolinktitle>}}
+
+# {{<cbr>}}On your own{{</cbr>}} \\
+# {{<nolinktitle>}}Transfer learning{{</nolinktitle>}} \\
+# {{<nolinktitle>}}The Transformer{{</nolinktitle>}} \\
+# {{<nolinktitle>}}Which frameworks to choose?{{</nolinktitle>}} \\
+# {{<nolinktitle>}}PyTorch tensors{{</nolinktitle>}}
+
+# {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
+# {{<nolinktitle>}}fastai{{</nolinktitle>}} \\
+# {{<nolinktitle>}}Jupyter tips{{</nolinktitle>}} \\
+# {{<nolinktitle>}}Implementation: upscaling images{{</nolinktitle>}} \\
+# {{<nolinktitle>}}Ethical considerations{{</nolinktitle>}} \\
+# {{<nolinktitle>}}Wrap-up & resources{{</nolinktitle>}}
