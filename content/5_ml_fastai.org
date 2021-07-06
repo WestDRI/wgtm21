@@ -26,7 +26,7 @@ This course, suitable for people with no knowledge of machine learning, will wal
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/05_tl" text="Transfer learning">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/06_transformer" text="The Transformer">}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/07_frameworks" text="Which framework to choose?">}} \\
-# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_pytorch" text="PyTorch">}}
+# {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/08_tensors" text="PyTorch tensors">}}
 
 # {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
 # {{<linktitle url="https://westgrid-ml.netlify.app/2021_modules/09_fastai" text="fastai">}} \\
@@ -49,7 +49,7 @@ This course, suitable for people with no knowledge of machine learning, will wal
 {{<nolinktitle>}}Transfer learning{{</nolinktitle>}} \\
 {{<nolinktitle>}}The Transformer{{</nolinktitle>}} \\
 {{<nolinktitle>}}Which frameworks to choose?{{</nolinktitle>}} \\
-{{<nolinktitle>}}PyTorch{{</nolinktitle>}}
+{{<nolinktitle>}}PyTorch tensors{{</nolinktitle>}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}2–5 pm Pacific Time{{</cgr>}} \\
 {{<nolinktitle>}}fastai{{</nolinktitle>}} \\
