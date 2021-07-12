@@ -14,15 +14,15 @@ weight = 1
 <!-- 01b-plotting.mp4 -->
 {{< yt d5LwPlVwEIQ 63 >}}
 
-## Side material: Plotly (2 min)
+## Side material: Matplotlib and Plotly (2 min)
 
 If your goal is 1D or 2D plotting, then ParaView is really an overkill. You can create beautiful 1D/2D (and very simple
 3D) graphics with Matplotlib (plotting into a static image file) or Plotly (plotting into HTML, to be viewed
 interactively in a browser).
 
-We already covered Matplotlib in our Python course in this school. Plotly is an open-source, commercially-supported
-package from a Montreal-based company with the same name. Plotly engine has a Python API and stores plots inside
-interactive HTML5 files that can be also be displayed in a Jupyter notebook.
+We already covered Matplotlib in our [Python course](../../programming_python) in this school. Plotly is an open-source,
+commercially-supported package from a Montreal-based company with the same name. Plotly engine has a Python API and
+stores plots inside interactive HTML5 files that can be also be displayed in a Jupyter notebook.
 
 You can find our Plotly notes with script examples [here](../../plotly). Since our goal is learning 3D scientific
 visualization with ParaView, we include these notes as a side page for later reading for anyone interested in simpler

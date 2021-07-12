@@ -5,15 +5,18 @@ slug = "vis1"
 
 <!-- 1. distribute usernames and passwords (optional, only for quick Plotly practice on Cassiopeia) -->
 
-Please download a [ZIP file](http://bit.ly/paraviewzip) (20 MB) with the slides, sample datasets and scripts inside.
-
-1. instructor / helpers / course introduction
-1. slides for this course
-1. let's try to start ParaView on your computer
-1. review the program for this morning: you have **1h43m** of videos to watch!
-    - simple 1D/2D plotting with Matplotlib (covered in the Python course) and Plotly (notes linked from this course)
+1. Instructor / helpers / course introduction
+1. The slides for this course (`slides1.pdf` and `slides2.pdf`) are included into the
+   [main ZIP file](https://bit.ly/paraviewzipp) (~20 MB) along with sample datasets and various scripts
+1. Right now we are running [SciVis Contest 2021](https://scivis2021.netlify.app) -- deadline for submissions is the end
+   of July
+1. Let's try to start ParaView on your computer
+1. Review the program for this morning: you have **1h43m** of videos to watch!
+    - `slides1.pdf` covers today's morning topics
+    - side materials: simple 1D/2D plotting with Matplotlib (covered in our [Python course](../../programming_python))
+      and Plotly (notes linked from this course)
 	- today's focus is 3D visualization with ParaView
-1. pay attention to the slides that say *"Exercise"* in the title -- we'll do these in the Zoom session
+1. Pay attention to the slides that say *"Exercise"* in the title -- we'll do these in the next Zoom session
 
 <!-- Plotly is a **side topic** to show some simple interactive plotting where ParaView is an overkill. Please do not spend -->
 <!-- more than 30 mins on it, or you will have no time left for 3D visualization! On the other hand, if all you are -->
