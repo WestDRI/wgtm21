@@ -35,34 +35,34 @@ into ParaView.
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-9:30am Pacific{{</cgr>}} \
 {{<linktitle url="../vis1" text="Morning opening session">}}
 
-{{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Introduction{{</nolinktitle>}} \
-{{<nolinktitle>}}ParaView architecture and GUI{{</nolinktitle>}} \
-{{<nolinktitle>}}Importing data into ParaView{{</nolinktitle>}} \
-{{<nolinktitle>}}Working with ParaView filters{{</nolinktitle>}}
-
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<linktitle url="../vis/vis-01-intro" text="Introduction (28 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-02-arch" text="ParaView architecture and GUI (11 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-03-import" text="Importing data into ParaView (29 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-04-filters" text="Working with ParaView filters (35 min)">}} -->
+<!-- {{<nolinktitle>}}Introduction{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}ParaView architecture and GUI{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Importing data into ParaView{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Working with ParaView filters{{</nolinktitle>}} -->
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<linktitle url="../vis/vis-01-intro" text="Introduction (28 min)">}} \
+{{<linktitle url="../vis/vis-02-arch" text="ParaView architecture and GUI (11 min)">}} \
+{{<linktitle url="../vis/vis-03-import" text="Importing data into ParaView (29 min)">}} \
+{{<linktitle url="../vis/vis-04-filters" text="Working with ParaView filters (35 min)">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:45am-1:30pm Pacific{{</cgr>}} \
 {{<linktitle url="../vis2" text="Mid-day session">}}
 
-{{<cbr>}}On your own{{</cbr>}} \
-{{<nolinktitle>}}Exporting scenes{{</nolinktitle>}} \
-{{<nolinktitle>}}Animation in ParaView{{</nolinktitle>}} \
-{{<nolinktitle>}}Python scripting in ParaView{{</nolinktitle>}} \
-{{<nolinktitle>}}Remote and distributed visualization{{</nolinktitle>}} \
-{{<nolinktitle>}}Summary{{</nolinktitle>}}
-
 <!-- {{<cbr>}}On your own{{</cbr>}} \ -->
-<!-- {{<linktitle url="../vis/vis-05-export" text="Exporting scenes (5 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-06-animation" text="Animation in ParaView (14 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-07-scripting" text="Python scripting in ParaView (30 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-08-remote" text="Remote and distributed visualization (37 min)">}} \ -->
-<!-- {{<linktitle url="../vis/vis-09-summary" text="Summary (4 min)">}} -->
+<!-- {{<nolinktitle>}}Exporting scenes{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Animation in ParaView{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Python scripting in ParaView{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Remote and distributed visualization{{</nolinktitle>}} \ -->
+<!-- {{<nolinktitle>}}Summary{{</nolinktitle>}} -->
+
+{{<cbr>}}On your own{{</cbr>}} \
+{{<linktitle url="../vis/vis-05-export" text="Exporting scenes (5 min)">}} \
+{{<linktitle url="../vis/vis-06-animation" text="Animation in ParaView (14 min)">}} \
+{{<linktitle url="../vis/vis-07-scripting" text="Python scripting in ParaView (30 min)">}} \
+{{<linktitle url="../vis/vis-08-remote" text="Remote and distributed visualization (37 min)">}} \
+{{<linktitle url="../vis/vis-09-summary" text="Summary (4 min)">}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:00pm-5:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Cover challenges, do some exercises, and wrap up the course.{{</nolinktitle>}}

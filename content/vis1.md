@@ -7,7 +7,8 @@ slug = "vis1"
 
 1. Instructor / helpers / course introduction
 1. The slides for this course (`slides1.pdf` and `slides2.pdf`) are included into the
-   [main ZIP file](https://bit.ly/paraviewzipp) (~20 MB) along with sample datasets and various scripts
+   [main ZIP file](https://bit.ly/paraviewzipp) (~20 MB) along with sample datasets and various scripts; in case of
+   problems, check this [temporary mirror](https://transfer.sh/1KaBoJZ/paraviewzipp)
 1. Right now we are running [SciVis Contest 2021](https://scivis2021.netlify.app) -- deadline for submissions is the end
    of July
 1. Let's try to start ParaView on your computer
@@ -28,7 +29,7 @@ By mid-day you should be comfortable with:
 * importing datasets from files into ParaView
 * applying filters to process data
 
-If you have yor own spatially-defined dataset, try loading it into ParaView and sharing your experience (or
+If you have your own spatially-defined dataset, try loading it into ParaView and sharing your experience (or
 visualizations!) in the mid-day session.
 
 <!-- - creating and deleting files and directories, copying and moving them -->
