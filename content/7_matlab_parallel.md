@@ -34,6 +34,13 @@ them.
 
 **Software**: We'll be running MATLAB in a browser.
 
+**Resources**:
+
+<!-- - [Video tutorial](https://youtu.be/H8KM487zNrk) -->
+- [MATLAB workshop material](https://drive.matlab.com/sharing/8bd444df-1344-429e-aa71-1da85bf81870)
+- [MATLAB Classroom](https://www.mathworks.com/licensecenter/classroom/PC_3507600)
+- PDF slides for [the morning session](../../slides/Parallel-Computing-Workshop-Part-I.pdf) and [the afternoon session](../../slides/Parallel-Computing-Workshop-Part-II.pdf)
+
 <!-- All attendees will need a remote secure shell (SSH) client installed -->
 <!-- on their computer in order to participate in the course exercises. On Windows we recommend -->
 <!-- [the free Home Edition of MobaXterm](https://mobaxterm.mobatek.net/download.html). On Mac and Linux computers SSH is -->
@@ -44,6 +51,8 @@ them.
 
 {{<cbr>}}On your own{{</cbr>}} \
 {{<nolinktitle>}}Parallel Computing Workshop exercises{{</nolinktitle>}}
+
+{{< yt H8KM487zNrk 63 >}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}01:00pm-3:30pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}MATLAB on HPC, Q&A, Wrap-up{{</nolinktitle>}}
