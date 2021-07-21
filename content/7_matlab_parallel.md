@@ -38,7 +38,7 @@ them.
 
 <!-- - [Video tutorial](https://youtu.be/H8KM487zNrk) -->
 - [MATLAB workshop material](https://drive.matlab.com/sharing/8bd444df-1344-429e-aa71-1da85bf81870)
-- [MATLAB Classroom](https://www.mathworks.com/licensecenter/classroom/PC_3507600)
+- [MATLAB Classroom](https://www.mathworks.com/licensecenter/classroom/PC_3507600) - valid only for the day of the workshop
 - PDF slides for [the morning session](../../slides/Parallel-Computing-Workshop-Part-I.pdf) and [the afternoon session](../../slides/Parallel-Computing-Workshop-Part-II.pdf)
 
 <!-- All attendees will need a remote secure shell (SSH) client installed -->
