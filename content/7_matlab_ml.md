@@ -38,11 +38,83 @@ will use MATLAB to build and train models for machine learning and deep learning
 {{<cbr>}}Self-paced videos{{</cbr>}} \
 {{<nolinktitle>}}Machine Learning Workshop exercises{{</nolinktitle>}}
 
+#### Machine Learning Video 1 - Setup
+
+{{< yt ACZKi9XVz4o 63 >}}
+
+#### Machine Learning Video 2 - Introduction
+
+{{< yt 3kIIdiibH8M 63 >}}
+
+#### Machine Learning Video 3 - Exercise 1 - Training a Regression Model
+
+{{< yt 9eLzB6quKcQ 63 >}}
+
+#### Machine Learning Video 4 - Classification Models
+
+{{< yt rCSoI_FpE3Y 63 >}}
+
+#### Machine Learning Video 5 - Exercise 2 - Training a Classification Model
+
+{{< yt t0FmPCc-7xI 63 >}}
+
+#### Machine Learning Video 6 - Exercise 2 - Training a Classification Model (Part 2)
+
+{{< yt cZ5x4C0VwYo 63 >}}
+
+#### Machine Learning Video 7 - Exercise 2 - Training a Classification Model (Part 3)
+
+{{< yt St7CbDP97z0 63 >}}
+
+#### Machine Learning Video 8 - Feature Engineering
+
+{{< yt BpWF9q9eN5c 63 >}}
+
+#### Machine Learning Video 9 - Wrap-Up
+
+{{< yt IBVWKyDo7hc 63 >}}
+
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}11:30pm-12:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Q&A for Machine Learning Workshop{{</nolinktitle>}}
 
 {{<cbr>}}Self-paced videos{{</cbr>}} \
 {{<nolinktitle>}}Deep Learning Workshop exercises{{</nolinktitle>}}
+
+#### Deep Learning Video 1 - Setup
+
+{{< yt zBg7KF9vp5E 63 >}}
+
+#### Deep Learning Video 2 - Introduction
+
+{{< yt XW-qK4N8D74 63 >}}
+
+#### Deep Learning Video 3a - Exercise 1 - Deep Learning in 6 Lines
+
+{{< yt arWfS-hVZ78 63 >}}
+
+#### Deep Learning Video 3b - Exercise 2 - Exploring Pretrained Models
+
+{{< yt MXraKEOPe4Y 63 >}}
+
+#### Deep Learning Video 4a - Network Layers
+
+{{< yt -mFu5UF2TWA 63 >}}
+
+#### Deep Learning Video 4b - Exercise 3 - Training a Network from Scratch
+
+{{< yt ijfLejhaT5k 63 >}}
+
+#### Deep Learning Video 5 - Transfer Learning
+
+{{< yt OX7oU1iRKA4 63 >}}
+
+#### Deep Learning Video 6 - Exercise 4 - Transfer Learning
+
+{{< yt NffaL76KjVo 63 >}}
+
+#### Deep Learning Video 7 - Wrap Up
+
+{{< yt E51XgxRwzMc 63 >}}
 
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}3:00pm-4:00pm Pacific{{</cgr>}} \
 {{<nolinktitle>}}Q&A for Deep Learning Workshop, Wrap-Up{{</nolinktitle>}}
