@@ -32,6 +32,13 @@ will use MATLAB to build and train models for machine learning and deep learning
 
 **Software**: We’ll be running MATLAB in a browser.
 
+**Resources**:
+
+- [Slides and exercises from both sessions](https://content-mathworks.highspot.com/viewer/610194a3a2e3a94997bbdf61)
+  hosted at MathWorks
+- Downloadable PDF slides for [Machine Learning](../../slides/MATLAB-machineLearning.pdf) (Part 1) and
+  [Deep Learning](../../slides/MATLAB-deepLearning.pdf) (Part 2)
+
 {{<cor>}}Zoom{{</cor>}} {{<s>}} {{<cgr>}}9:00am-9:30am Pacific{{</cgr>}} \
 {{<nolinktitle>}}Live introduction session{{</nolinktitle>}}
 
